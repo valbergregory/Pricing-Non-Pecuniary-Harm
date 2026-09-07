@@ -34,8 +34,13 @@ sha256_file <- function(path) digest::digest(path, algo = "sha256", file = TRUE)
 datajud_key <- function() {
   k <- Sys.getenv("DATAJUD_APIKEY", unset = "")
   if (nzchar(k)) return(k)
+  # Verified 2026-09-07: the wiki needs the trailing slash AND a cookie jar, otherwise
+  # libcurl loops on redirects ("Maximum (10) redirects followed").
   page <- tryCatch(
-    httr2::request("https://datajud-wiki.cnj.jus.br/api-publica/acesso") |>
+    httr2::request("https://datajud-wiki.cnj.jus.br/api-publica/acesso/") |>
+      httr2::req_user_agent("Mozilla/5.0 (academic research; R httr2)") |>
+      httr2::req_cookie_preserve(tempfile("cnj_cookies_")) |>
+      httr2::req_error(is_error = function(r) FALSE) |>
       httr2::req_timeout(60) |> httr2::req_perform() |> httr2::resp_body_string(),
     error = function(e) "")
   txt <- gsub("<[^>]+>", " ", page)                 # strip HTML tags

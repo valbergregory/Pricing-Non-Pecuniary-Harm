@@ -1,3 +1,4 @@
+source("renv/activate.R")
 # Ativado em toda sessão R aberta na raiz do projeto.
 if (file.exists("renv/activate.R")) source("renv/activate.R")
 options(

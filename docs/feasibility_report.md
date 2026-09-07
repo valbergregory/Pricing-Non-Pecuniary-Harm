@@ -55,9 +55,39 @@ contraste (valores revisados no STJ) e calendário de temas repetitivos (RQ4);
 | 9 | Termos de uso da API do TJDFT | **PENDENTE** (D6) — não localizados na sondagem; solicitar/confirmar antes da coleta do universo |
 | 10 | Paginação até o fim do universo | **PARCIAL** — `pagina` 2100 × 40 respondeu 200; limite de profundidade a testar na fase 1 |
 
-## 4. Piloto diagnóstico (março/2024)
+## 4. Piloto diagnóstico (março/2024) — executado em 2026-09-07
 
-[preenchido automaticamente após scripts/02 e 03 — ver seção 4 abaixo]
+Coleta real via API (`scripts/02`): **820 acórdãos** com "dano moral" julgados entre
+01 e 26/03/2024 (21 páginas, 1 req/s, ~3 min), **815 com inteiro teor**; 428 de Turmas
+Cíveis (`acordaos`) e 392 de Turmas Recursais (`acordaos-tr`). Todas as páginas brutas
+ficaram em `data/raw/tjdft/` com SHA-256 em `collection_log`.
+
+Extração por regras (`scripts/03`, extrator **não validado**):
+
+| Métrica | N | % |
+|---|---|---|
+| Acórdãos | 820 | 100,0 |
+| Com alguma menção "R$" (ementa ou inteiro teor) | 768 | 93,7 |
+| Com "R$" na ementa | 451 | 55,0 |
+| Com menção em contexto de dano moral | 691 | 84,3 |
+| Valor final escolhido pela heurística só na ementa | 199 | 24,3 |
+| Valor final escolhido em qualquer seção | 411 | 50,1 |
+
+Menções totais: 6.756 (1.531 na ementa, 5.225 no inteiro teor). Dicionário de tipos de
+lesão: negativação 138, serviço de consumo 125, plano de saúde/erro médico 91, morte/lesão
+63, transporte aéreo 62, honra/privacidade 52, fraude bancária 45, Estado 5, **não
+classificado 239 (29 %)**. Os valores escolhidos pela heurística (n = 411; mediana
+R$ 4.000, p10 R$ 500, p90 R$ 15.000) servem **apenas** para dimensionar a anotação; não
+são resultado, porque a heurística ainda não foi validada e mistura Turmas Cíveis e
+Recursais.
+
+Leitura: o critério (2) do gate (≥ 70 % com contexto de dano moral e ≥ 50 % com valor
+escolhido) foi atingido, o segundo no limite. A perda maior está na etapa "escolher o
+valor final" (84 % → 50 %), não na presença do valor (94 %): é problema de regra de
+papel (fixado/majorado/reduzido/sentença), corrigível com a anotação. Amostra de
+anotação da rodada 1 (60 acórdãos, 30 com valor escolhido e 30 sem) em
+`outputs/diagnostics/03_annotation_sample_round1.csv`. Relatores aparecem nos
+diagnósticos exportados só como hash salgado (política de IA/reprodutibilidade, §4).
 
 ## 5. Arquitetura R-only
 

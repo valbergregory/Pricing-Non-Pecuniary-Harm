@@ -3,8 +3,8 @@
 ## Ambiente
 - R ≥ 4.4 (desenvolvido em 4.4.3, Windows 11). `Rscript` em `C:\Program Files\R\R-4.4.3\bin`.
 - Dependências travadas por `renv` (`renv.lock`). Primeira sessão: `renv::restore()`.
-- Quarto CLI para o artigo (`quarto render article/study.qmd`).
 - Sem Python, sem Docker, sem serviços externos além das APIs públicas listadas.
+- Runbook numerado com entradas, saídas e duração: `docs/RUNBOOK.md`.
 
 ## Ordem de execução
 1. `source("scripts/00_check_environment.R")` — Console.

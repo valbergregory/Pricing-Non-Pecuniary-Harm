@@ -1,17 +1,17 @@
 "id","ok","detail","checked_at"
-"tjdft_count",TRUE,"2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374",2026-09-05 19:30:32.768627
-"tjdft_fulltext",TRUE,"hits=820 page0=40 with_fulltext=40 mean_chars=37912",2026-09-05 19:30:35.234304
-"stj_ckan",TRUE,"21 datasets",2026-09-05 19:31:04.352185
-"stj_integras",TRUE,"2597 resources; zips=1288; total=11.2 GB",2026-09-05 19:31:06.242582
-"stj_temas",TRUE,"2430 precedentes; 0 mention dano moral",2026-09-05 19:31:08.015803
-"datajud_key",FALSE,"key not found",2026-09-05 19:31:09.25525
-"datajud_tjdft",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:10.12433
-"datajud_tjsp",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:10.955867
-"datajud_tjrs",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:11.792828
-"datajud_tjal",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:12.625743
-"bcb_ipca",TRUE,"139 months, last=2026-07-01",2026-09-05 19:31:14.189063
-"web_tjsp",TRUE,"HTTP 200",2026-09-05 19:31:14.922694
-"web_tjrs",TRUE,"HTTP 200",2026-09-05 19:31:16.348868
-"web_tjmg",FALSE,"HTTP 401",2026-09-05 19:31:16.750997
-"web_tjal",FALSE,"HTTP 503",2026-09-05 19:31:16.997659
-"web_stj_scon",FALSE,"HTTP 403",2026-09-05 19:31:17.332779
+"tjdft_count",TRUE,"2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374",2026-09-07 19:38:05.226626
+"tjdft_fulltext",TRUE,"hits=820 page0=40 with_fulltext=40 mean_chars=37912",2026-09-07 19:38:07.619167
+"stj_ckan",TRUE,"21 datasets",2026-09-07 19:38:15.318581
+"stj_integras",TRUE,"2597 resources; zips=1288; total=11.2 GB",2026-09-07 19:38:16.407618
+"stj_temas",TRUE,"2400 precedentes; 58 mention dano moral",2026-09-07 19:38:17.051373
+"datajud_key",TRUE,"key resolved",2026-09-07 19:38:17.490027
+"datajud_tjdft",TRUE,"total=39.097 grau=[JE:21197 G1:12017 G2:4132 TR:1751]",2026-09-07 19:38:18.814941
+"datajud_tjsp",TRUE,"total=282.464 grau=[G1:149735 G2:69961 TR:31915 JE:30853]",2026-09-07 19:38:20.02468
+"datajud_tjrs",TRUE,"total=48.957 grau=[JE:18161 TR:15061 G2:8532 G1:7203]",2026-09-07 19:38:20.325176
+"datajud_tjal",TRUE,"total=65.093 grau=[JE:34130 G1:13947 TR:8641 G2:8375]",2026-09-07 19:38:21.483931
+"bcb_ipca",TRUE,"139 months, last=2026-07-01",2026-09-07 19:38:22.234432
+"web_tjsp",TRUE,"HTTP 200",2026-09-07 19:38:22.682069
+"web_tjrs",TRUE,"HTTP 200",2026-09-07 19:38:24.112435
+"web_tjmg",FALSE,"HTTP 401",2026-09-07 19:38:24.61197
+"web_tjal",FALSE,"HTTP 503",2026-09-07 19:38:24.813233
+"web_stj_scon",FALSE,"HTTP 403",2026-09-07 19:38:25.868713

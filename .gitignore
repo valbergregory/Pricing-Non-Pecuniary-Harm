@@ -26,6 +26,8 @@ outputs/logs/*.jsonl
 # SO
 Thumbs.db
 .DS_Store
+outputs/logs/*_console.txt
+outputs/logs/renv_init.txt
 
 # --- Texto do artigo (local; nao versionado). Publicar apenas o PDF final em artigo/ ---
 overleaf/
