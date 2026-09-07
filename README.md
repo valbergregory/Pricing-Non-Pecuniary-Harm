@@ -2,8 +2,13 @@
 
 Research compendium (R-only) for the working paper
 
-> **Pricing Non-Pecuniary Harm: A Jurimetric Analysis of Moral Damages Awards in
-> Brazilian Appellate Courts** — Valber Gregory
+> **Pricing Non-Pecuniary Harm: A Jurimetric Analysis of Moral Damages Awards in a
+> Brazilian Appellate Court (Federal District, 2015–2025)** — Valber Gregory
+
+Scope decisions (2026-09-07): single jurisdiction (TJDFT) with a planned replication in
+TJRS; civil panels and small-claims appellate panels analysed as explicit strata; the
+STJ's review of awards under *Súmula 7* is the object of a separate paper
+([STJ-Moral-Damages-Jurimetrics](https://github.com/valbergregory/STJ-Moral-Damages-Jurimetrics)).
 
 Brazilian law leaves the monetary valuation of moral damages (*dano moral*) to judicial
 discretion. This repository builds a reproducible pipeline that extracts the amounts

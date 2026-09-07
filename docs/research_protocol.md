@@ -25,7 +25,46 @@ inflação alteram o "preço" do sofrimento.
 ## 3. Desenho empírico
 
 - **Unidade de análise:** acórdão (decisão colegiada de 2º grau ou Turma
-  Recursal) do TJDFT que decide pedido de dano moral, 2015–2025.
+  Recursal) do TJDFT que decide pedido de dano moral, 2015–2025, em **dois
+  estratos explícitos**: Turmas Cíveis (apelações, desembargadores) e Turmas
+  Recursais (recursos inominados dos Juizados Especiais, juízes de 1º grau).
+
+### 3.1 Estratos e ressalvas obrigatórias (D8)
+
+Os dois estratos entram na amostra, mas **nunca são agrupados sem indicador de
+estrato**, e toda estimativa principal é reportada por estrato. Motivos:
+
+1. **Rito e competência distintos.** As Turmas Recursais julgam causas dos
+   Juizados Especiais Cíveis (Lei 9.099/95), limitadas a 40 salários mínimos
+   de valor da causa, sem perícia complexa e com procedimento sumaríssimo; as
+   Turmas Cíveis julgam apelações sem teto de valor. O teto impõe um limite
+   superior mecânico aos valores nas Recursais.
+2. **Composição do colegiado.** Turmas Recursais são formadas por juízes de
+   1º grau em rodízio; Turmas Cíveis, por desembargadores estáveis. O "efeito
+   de julgador" (RQ2) tem significado diferente em cada estrato e não é
+   comparável entre eles.
+3. **Composição de matérias.** No piloto, as Recursais concentram transporte
+   aéreo, telecomunicações e serviços de consumo de baixo valor; as Cíveis,
+   plano de saúde, erro médico e morte. Sem estrato, a diferença de valor
+   entre matérias absorveria a diferença de rito.
+4. **Seleção diferente.** A parte que litiga no Juizado escolhe o rito (e o
+   teto); a apelação não envolve essa escolha. A comparação entre estratos é
+   descritiva, não causal.
+
+Consequências: (a) o modelo multinível de RQ2 é estimado dentro de cada
+estrato; (b) as regressões quantílicas de RQ1 incluem estrato × tipo de lesão;
+(c) a comparação "mesma lesão, rito diferente" é reportada como achado
+descritivo próprio, com as ressalvas 1–4 no texto; (d) a análise de RQ3
+(majoração/redução) usa a sentença de origem de cada rito.
+
+### 3.2 Escopo e replicação (D1, D10, D11)
+
+O estudo cobre uma única jurisdição (Distrito Federal). O título e as
+conclusões nomeiam essa jurisdição; nenhuma afirmação sobre "os tribunais
+brasileiros" é feita. Replicação prevista no TJRS (fase 2). O controle do
+quantum pelo STJ sob a Súmula 7 é objeto de artigo separado
+(`STJ-Moral-Damages-Jurimetrics`); aqui o STJ entra apenas como calendário de
+precedentes qualificados (RQ4).
 - **Variável dependente:** valor arbitrado/mantido a título de dano moral
   (R$ nominais e deflacionados pelo IPCA), extraído da ementa/dispositivo e
   validado por anotação humana; variável auxiliar: valor da sentença de origem
