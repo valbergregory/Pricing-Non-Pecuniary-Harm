@@ -122,14 +122,22 @@ Sem custo monetário. Hardware atual (64 GB RAM) é mais que suficiente.
   após validação humana com F1 ≥ 0,90 (D5).
 - **Dados pessoais** nos inteiros teores (nomes de partes): tratamento D7.
 
-## 7. Critérios de continuidade (gate para a fase 1)
+## 7. Critérios de continuidade (gate para a fase 1) — estado em 2026-09-07
 
-1. D6 resolvido (termos de uso/cadência confirmados ou ausência documentada).
-2. Piloto: ≥ 70 % dos acórdãos com pelo menos uma menção de valor em contexto
-   de dano moral e ≥ 50 % com valor final escolhido pela heurística.
+1. D6: termos de uso não localizados; **decisão: coleta em cadência de cortesia em
+   paralelo com pedido formal** (texto em `docs/requests/tjdft_terms_request.md`,
+   envio pelo pesquisador). **Atendido.**
+2. Piloto: ≥ 70 % com menção em contexto de dano moral (84,3 %) e ≥ 50 % com valor
+   final escolhido (50,1 %). **Atendido, no limite.**
 3. Primeira rodada de anotação (60 acórdãos) com F1 ≥ 0,80 do extrator
-   (meta 0,90 após ajuste de regras).
-4. Aprovação de D1–D5, D7–D8 pelo pesquisador.
+   (meta 0,90 após ajuste de regras). **Pendente — anotação é do pesquisador.**
+4. Decisões do pesquisador (2026-09-07): **D1 aprovada** (TJDFT; TJRS como replicação,
+   D11); **D8 fechada** (dois estratos com ressalvas, protocolo §3.1); **D10**: trilha
+   STJ vira artigo separado. D4, D5 e D7 seguem como propostas até a anotação.
+
+A coleta completa 2015–2025 (D12) foi iniciada em 2026-09-07 por
+`scripts/04_collect_tjdft_full.R`; ela não depende do item 3, que valida apenas o
+extrator. Nenhuma estimativa será produzida antes da validação humana.
 
 Se (2) ou (3) falharem, a alternativa é restringir a amostra às ementas
 estruturadas (padrão CNJ 2024+) ou incluir extração assistida por revisão

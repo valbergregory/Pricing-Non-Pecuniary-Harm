@@ -23,7 +23,7 @@ tjdft_body <- function(query, date_from, date_to, page, size = 40,
 tjdft_request <- function(endpoint, body, timeout = 120) {
   httr2::request(endpoint) |>
     httr2::req_headers(`Content-Type` = "application/json",
-                       `User-Agent` = "Pricing-Non-Pecuniary-Harm/0.1 (academic research; R httr2)") |>
+                       `User-Agent` = "Pricing-Non-Pecuniary-Harm/0.1 (+https://github.com/valbergregory/Pricing-Non-Pecuniary-Harm; academic research; 1 req/s; R httr2)") |>
     httr2::req_body_json(body, auto_unbox = TRUE) |>
     httr2::req_timeout(timeout) |>
     httr2::req_retry(max_tries = 4, backoff = ~ 2 ^ .x) |>
