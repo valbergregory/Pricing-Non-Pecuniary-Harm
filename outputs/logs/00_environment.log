@@ -1,0 +1,9 @@
+[2026-09-05 19:30:14] R 4.4.3 | platform x86_64-w64-mingw32 
+[2026-09-05 19:30:14] libPaths: C:/Users/valbe/AppData/Local/R/win-library/4.4 ; C:/Program Files/R/R-4.4.3/library 
+[2026-09-05 19:30:14] renv active: FALSE | lockfile: FALSE 
+[2026-09-05 19:30:16] packages present: httr2, jsonlite, yaml, digest, stringi, duckdb, DBI, data.table, testthat, lme4, fixest, sandwich, quantreg, boot, modelsummary, ggplot2, quarto, knitr, rmarkdown 
+[2026-09-05 19:30:16] packages MISSING: targets, tarchetypes 
+[2026-09-05 19:30:16] quarto CLI: C:\Users\valbe\AppData\Local\Programs\Quarto\bin\quarto.exe 
+[2026-09-05 19:30:16] git: C:\PROGRA~1\Git\mingw64\bin\git.exe 
+[2026-09-05 19:30:16] DATAJUD_APIKEY in .Renviron: FALSE 
+[2026-09-05 19:30:16] done 

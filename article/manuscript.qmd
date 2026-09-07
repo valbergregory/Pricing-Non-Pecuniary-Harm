@@ -1,0 +1,66 @@
+---
+title: "Pricing Non-Pecuniary Harm: A Jurimetric Analysis of Moral Damages Awards in Brazilian Appellate Courts"
+author:
+  - name: "Valber Gregory"
+    affiliations: "Independent researcher"
+date: today
+abstract: |
+  [Draft skeleton — no results yet. To be written after phase 1.]
+  Brazilian law leaves the monetary valuation of moral damages to judicial discretion,
+  bounded only by "reasonableness and proportionality" and the STJ's two-stage method.
+  Using the full text of appellate decisions of the Court of Justice of the Federal
+  District (TJDFT, 2015–2025) obtained through its public API, we extract the awarded
+  amounts and estimate the distribution of awards by type of harm, the share of variance
+  attributable to judges and panels, the compression effect of appellate review, the
+  response of awards to binding STJ precedents, and the role of anchors and inflation.
+keywords: [moral damages, jurimetrics, judicial discretion, quantile regression, multilevel models, Brazil]
+format:
+  pdf:
+    documentclass: article
+    number-sections: true
+  html: default
+bibliography: references.bib
+execute:
+  echo: false
+  warning: false
+---
+
+# Introduction
+
+<!-- Motivation: no statutory tariff (art. 944 Civil Code; ADI 6.050 on art. 223-G CLT);
+STJ two-stage method (REsp 1.152.541/RS); large literature on judge effects and
+damages dispersion in the US (Sunstein, Kahneman & Schkade 1998; Eisenberg et al.) and
+scarce quantitative evidence for Brazil. -->
+
+# Institutional background
+
+# Data
+
+## Source and sample construction
+
+<!-- JurisDF/TJDFT public API; query, filters, full text; 2015–2025; inclusion rules;
+selection into appellate review; DataJud volumes as context (Table). -->
+
+## Extracting awards from decisions
+
+<!-- Rule-based extractor over ementa/full text; roles (fixed/increased/reduced/first
+instance/claimed/excluded); human validation (300 decisions, F1 threshold); harm-type
+dictionary. -->
+
+# Empirical strategy
+
+<!-- E1–E5 from docs/estimand_table.md. -->
+
+# Results
+
+<!-- Filled only from targets outputs (outputs/tables, outputs/figures). -->
+
+# Robustness
+
+# Discussion and policy implications
+
+# Limitations
+
+# Conclusion
+
+# References

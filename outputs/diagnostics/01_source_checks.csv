@@ -1,0 +1,17 @@
+"id","ok","detail","checked_at"
+"tjdft_count",TRUE,"2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374",2026-09-05 19:30:32.768627
+"tjdft_fulltext",TRUE,"hits=820 page0=40 with_fulltext=40 mean_chars=37912",2026-09-05 19:30:35.234304
+"stj_ckan",TRUE,"21 datasets",2026-09-05 19:31:04.352185
+"stj_integras",TRUE,"2597 resources; zips=1288; total=11.2 GB",2026-09-05 19:31:06.242582
+"stj_temas",TRUE,"2430 precedentes; 0 mention dano moral",2026-09-05 19:31:08.015803
+"datajud_key",FALSE,"key not found",2026-09-05 19:31:09.25525
+"datajud_tjdft",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:10.12433
+"datajud_tjsp",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:10.955867
+"datajud_tjrs",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:11.792828
+"datajud_tjal",FALSE,"!is.na(key) não é TRUE",2026-09-05 19:31:12.625743
+"bcb_ipca",TRUE,"139 months, last=2026-07-01",2026-09-05 19:31:14.189063
+"web_tjsp",TRUE,"HTTP 200",2026-09-05 19:31:14.922694
+"web_tjrs",TRUE,"HTTP 200",2026-09-05 19:31:16.348868
+"web_tjmg",FALSE,"HTTP 401",2026-09-05 19:31:16.750997
+"web_tjal",FALSE,"HTTP 503",2026-09-05 19:31:16.997659
+"web_stj_scon",FALSE,"HTTP 403",2026-09-05 19:31:17.332779

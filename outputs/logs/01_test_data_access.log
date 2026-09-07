@@ -1,0 +1,17 @@
+[2026-09-05 19:30:32] tjdft_count      OK    2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374 
+[2026-09-05 19:30:35] tjdft_fulltext   OK    hits=820 page0=40 with_fulltext=40 mean_chars=37912 
+[2026-09-05 19:31:04] stj_ckan         OK    21 datasets 
+[2026-09-05 19:31:06] stj_integras     OK    2597 resources; zips=1288; total=11.2 GB 
+[2026-09-05 19:31:08] stj_temas        OK    2430 precedentes; 0 mention dano moral 
+[2026-09-05 19:31:09] datajud_key      FAIL  key not found 
+[2026-09-05 19:31:10] datajud_tjdft    FAIL  !is.na(key) não é TRUE 
+[2026-09-05 19:31:10] datajud_tjsp     FAIL  !is.na(key) não é TRUE 
+[2026-09-05 19:31:11] datajud_tjrs     FAIL  !is.na(key) não é TRUE 
+[2026-09-05 19:31:12] datajud_tjal     FAIL  !is.na(key) não é TRUE 
+[2026-09-05 19:31:14] bcb_ipca         OK    139 months, last=2026-07-01 
+[2026-09-05 19:31:14] web_tjsp         OK    HTTP 200 
+[2026-09-05 19:31:16] web_tjrs         OK    HTTP 200 
+[2026-09-05 19:31:16] web_tjmg         FAIL  HTTP 401 
+[2026-09-05 19:31:16] web_tjal         FAIL  HTTP 503 
+[2026-09-05 19:31:17] web_stj_scon     FAIL  HTTP 403 
+[2026-09-05 19:31:17] done: 16 checks, 8 OK 

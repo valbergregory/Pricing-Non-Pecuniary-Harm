@@ -1,0 +1,28 @@
+# Dados (nunca versionar bases brutas/grandes)
+data/raw/
+data/interim/
+data/processed/
+data/external/
+!data/*/.gitkeep
+# Banco local
+*.duckdb
+*.duckdb.wal
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+_targets/
+renv/library/
+renv/staging/
+renv/local/
+renv/cache/
+# Outputs pesados (regeneráveis)
+outputs/models/*.rds
+outputs/logs/*.jsonl
+# Credenciais
+.Renviron
+.env
+# SO
+Thumbs.db
+.DS_Store

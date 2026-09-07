@@ -1,0 +1,30 @@
+# Dicionário provisório de tipos de lesão (classificação por regras sobre a ementa).
+# Cada tipo: rótulo EN para o artigo + padrões (regex ICU, case-insensitive) em pt-BR.
+# Validar com anotação humana (D5). Ordem = prioridade em caso de múltiplos acertos.
+- id: wrongful_death
+  label: "Wrongful death / bodily injury"
+  patterns: ["\\b[óo]bito\\b", "falecimento", "morte d[aeo]", "les[ãa]o corporal", "acidente de tr[âa]nsito"]
+- id: medical
+  label: "Medical malpractice / health plan"
+  patterns: ["erro m[ée]dico", "plano de sa[úu]de", "negativa de cobertura", "operadora de sa[úu]de"]
+- id: credit_listing
+  label: "Wrongful credit blacklisting"
+  patterns: ["negativa[çc][ãa]o", "inscri[çc][ãa]o indevida", "cadastro de inadimplentes", "\\bserasa\\b", "\\bspc\\b"]
+- id: air_travel
+  label: "Air travel (delay, cancellation, baggage)"
+  patterns: ["atraso de voo", "cancelamento de voo", "extravio de bagagem", "transporte a[ée]reo", "companhia a[ée]rea"]
+- id: banking_fraud
+  label: "Banking fraud / unauthorized transactions"
+  patterns: ["fraude banc[áa]ria", "transa[çc][õo]es n[ãa]o reconhecidas", "empr[ée]stimo consignado", "\\bgolpe\\b"]
+- id: consumer_service
+  label: "Consumer service failure (other)"
+  patterns: ["falha na presta[çc][ãa]o", "v[íi]cio do produto", "cobran[çc]a indevida", "interrup[çc][ãa]o (do|de) (fornecimento|servi[çc]o)"]
+- id: honor_privacy
+  label: "Honor, image, privacy"
+  patterns: ["\\bhonra\\b", "direito [àa] imagem", "privacidade", "dados pessoais", "cal[úu]nia", "difama[çc][ãa]o", "inj[úu]ria"]
+- id: state_liability
+  label: "State liability"
+  patterns: ["responsabilidade civil do estado", "responsabilidade objetiva do estado", "ente p[úu]blico"]
+- id: other
+  label: "Other / unclassified"
+  patterns: []
