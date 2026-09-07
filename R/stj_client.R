@@ -24,6 +24,11 @@ stj_download <- function(cfg, url, dataset_id, name = basename(url)) {
   if (!file.exists(dest)) {
     httr2::request(url) |> httr2::req_timeout(600) |> httr2::req_retry(max_tries = 3) |>
       httr2::req_perform(path = dest)
+    manifest_add(cfg, paste0("stj/", dataset_id), url, dest, licence = "CC-BY (STJ Dados Abertos)")
+  } else {
+    mf <- file.path(cfg$paths$metadata, "download_manifest.csv")
+    known <- if (file.exists(mf)) utils::read.csv(mf, stringsAsFactors = FALSE)$file else character()
+    if (!dest %in% known) manifest_add(cfg, paste0("stj/", dataset_id), url, dest, licence = "CC-BY (STJ Dados Abertos)")
   }
   dest
 }
@@ -50,12 +55,22 @@ stj_read_text <- function(zip_path, seq_documento) {
   paste(readLines(con, warn = FALSE), collapse = "\n")
 }
 
-# Precedentes qualificados: temas.csv (quoted multiline fields -> read.csv handles it)
+# Precedentes qualificados: temas.csv — COMMA-separated, quoted multiline fields
+# (verified 2026-09-07); data.table::fread parses it correctly (2.400 rows).
 stj_temas <- function(cfg) {
   ds <- cfg$sources$stj_ckan$datasets$precedentes
   res <- stj_resources(cfg, ds)
   url <- res$url[tolower(res$name) == "temas.csv"][1]
   path <- stj_download(cfg, url, ds, "temas.csv")
-  utils::read.csv(path, sep = ";", quote = "\"", encoding = "UTF-8", stringsAsFactors = FALSE,
-                  check.names = FALSE)
+  as.data.frame(data.table::fread(path, encoding = "UTF-8", colClasses = "character"))
+}
+
+# Download manifest (policy §4): one row per raw file with URL, date, size, SHA-256, licence
+manifest_add <- function(cfg, source, url, path, licence = NA_character_, filters = NA_character_) {
+  mf <- file.path(cfg$paths$metadata, "download_manifest.csv")
+  row <- data.frame(source = source, url = url, file = path, downloaded_at = format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
+                    size_bytes = file.info(path)$size, sha256 = sha256_file(path),
+                    licence = licence, filters = filters, stringsAsFactors = FALSE)
+  utils::write.table(row, mf, sep = ",", row.names = FALSE, col.names = !file.exists(mf), append = file.exists(mf))
+  invisible(row)
 }

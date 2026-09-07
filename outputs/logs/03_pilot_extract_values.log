@@ -1,0 +1,24 @@
+[2026-09-07 14:20:01] acordaos loaded: 820 
+[2026-09-07 14:20:12] amount mentions: 6756 (ementa 1531, full text 5225) 
+[2026-09-07 14:20:13] decisions                          820  100.0% 
+[2026-09-07 14:20:13] with any R$ mention                768  93.7% 
+[2026-09-07 14:20:13] with R$ in ementa                  451  55.0% 
+[2026-09-07 14:20:13] with moral-context mention         691  84.3% 
+[2026-09-07 14:20:13] award picked from ementa           199  24.3% 
+[2026-09-07 14:20:13] award picked from any section      411  50.1% 
+[2026-09-07 14:20:13] harm types: other=239, credit_listing=138, consumer_service=125, medical=91, wrongful_death=63, air_travel=62, honor_privacy=52, banking_fraud=45, state_liability=5 
+[2026-09-07 14:20:13] picked awards (UNVALIDATED): n=411 median=4000 p10=500 p90=15000 
+[2026-09-07 14:20:13] annotation sample written: 60 decisions 
+[2026-09-07 14:20:13] done 
+[2026-09-07 19:38:12] acordaos loaded: 820 
+[2026-09-07 19:38:22] amount mentions: 6756 (ementa 1531, full text 5225) 
+[2026-09-07 19:38:23] decisions                          820  100.0% 
+[2026-09-07 19:38:23] with any R$ mention                768  93.7% 
+[2026-09-07 19:38:23] with R$ in ementa                  451  55.0% 
+[2026-09-07 19:38:23] with moral-context mention         691  84.3% 
+[2026-09-07 19:38:23] award picked from ementa           199  24.3% 
+[2026-09-07 19:38:23] award picked from any section      411  50.1% 
+[2026-09-07 19:38:23] harm types: other=239, credit_listing=138, consumer_service=125, medical=91, wrongful_death=63, air_travel=62, honor_privacy=52, banking_fraud=45, state_liability=5 
+[2026-09-07 19:38:23] picked awards (UNVALIDATED): n=411 median=4000 p10=500 p90=15000 
+[2026-09-07 19:38:23] annotation sample written: 60 decisions 
+[2026-09-07 19:38:23] done 

@@ -26,7 +26,11 @@ per <- do.call(rbind, lapply(split(men, men$uuid), function(m) {
              award_ementa = pick_award(m[m$section == "ementa", ]),
              award_any = pick_award(m), stringsAsFactors = FALSE)
 }))
-diag <- merge(ac[, c("uuid", "base", "subbase", "classe_cnj", "orgao_julgador", "relator",
+# Policy §4: no judge names in committed outputs — the rapporteur stays only in the DB;
+# exported diagnostics carry an opaque per-rapporteur id (salted hash) for clustering.
+salt <- as.character(cfg$project$seed)
+ac$relator_id <- vapply(ac$relator, function(x) substr(digest::digest(paste0(salt, x), algo = "sha256"), 1, 10), character(1))
+diag <- merge(ac[, c("uuid", "base", "subbase", "classe_cnj", "orgao_julgador", "relator_id",
                      "data_julgamento", "ementa")], per, by = "uuid", all.x = TRUE)
 diag$n_mentions[is.na(diag$n_mentions)] <- 0L
 diag$harm_type <- classify_harm_vec(diag$ementa)

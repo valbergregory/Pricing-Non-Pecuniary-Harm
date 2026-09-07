@@ -9,10 +9,16 @@
   STJ, DataJud, BCB/SGS). Sem scraping de portais que exigem sessão/CAPTCHA.
 - **Dados pessoais:** não extrair nomes de partes; inteiro teor fica em
   `data/raw` (fora do Git); publicação apenas agregada (LGPD art. 7º §3º).
-- **Git:** commits locais permitidos; push só com autorização do pesquisador.
-- **Não instalar pacotes globalmente:** usar `renv`.
-- **Idioma:** documentação interna em pt-BR; artigo e código (nomes, comentários
-  curtos) em inglês.
+- **Git:** repositório público em github.com/valbergregory/Pricing-Non-Pecuniary-Harm;
+  commits e push autorizados (07/09/2026) desde que a checagem de dados pessoais passe.
+- **Não instalar pacotes globalmente:** usar `renv` (`renv.lock` versionado).
+- **Idioma:** documentação interna em pt-BR; README, artigo e código em inglês.
+- **Política de IA e reprodutibilidade** (`docs/AI_POLICY_AND_REPRODUCIBILITY.md`):
+  Claude Code escreve código, testes, configuração, runbook e documentação do repositório;
+  **nunca escreve prosa do artigo** — `article/main.tex` é só esqueleto com `% AUTHOR WRITES`.
+  Todo número do artigo sai de `scripts/09_export_overleaf.R` (`outputs/overleaf/numbers.tex`).
+- **Dados pessoais:** nenhum nome de parte, advogado ou juiz em arquivo versionado ou
+  output; relator só como hash salgado fora do banco; análise por órgão/painel.
 
 ## Fluxo de trabalho no RStudio
 - Console: verificações curtas (`source("scripts/00_check_environment.R")`).

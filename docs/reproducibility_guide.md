@@ -3,8 +3,10 @@
 ## Ambiente
 - R ≥ 4.4 (desenvolvido em 4.4.3, Windows 11). `Rscript` em `C:\Program Files\R\R-4.4.3\bin`.
 - Dependências travadas por `renv` (`renv.lock`). Primeira sessão: `renv::restore()`.
-- Quarto CLI para o artigo (`quarto render article/manuscript.qmd`).
+- Artigo em LaTeX no Overleaf: `article/main.tex` é só esqueleto; tabelas, figuras e
+  `numbers.tex` vêm de `scripts/09_export_overleaf.R` (`outputs/overleaf/`).
 - Sem Python, sem Docker, sem serviços externos além das APIs públicas listadas.
+- Runbook numerado com entradas, saídas e duração: `docs/RUNBOOK.md`.
 
 ## Ordem de execução
 1. `source("scripts/00_check_environment.R")` — Console.

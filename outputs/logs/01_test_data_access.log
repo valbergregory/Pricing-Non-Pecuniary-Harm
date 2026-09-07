@@ -15,3 +15,37 @@
 [2026-09-05 19:31:16] web_tjal         FAIL  HTTP 503 
 [2026-09-05 19:31:17] web_stj_scon     FAIL  HTTP 403 
 [2026-09-05 19:31:17] done: 16 checks, 8 OK 
+[2026-09-07 14:20:36] tjdft_count      OK    2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374 
+[2026-09-07 14:20:39] tjdft_fulltext   OK    hits=820 page0=40 with_fulltext=40 mean_chars=37912 
+[2026-09-07 14:20:39] stj_ckan         OK    21 datasets 
+[2026-09-07 14:20:40] stj_integras     OK    2597 resources; zips=1288; total=11.2 GB 
+[2026-09-07 14:20:41] stj_temas        OK    2400 precedentes; 58 mention dano moral 
+[2026-09-07 14:20:42] datajud_key      FAIL  key not found 
+[2026-09-07 14:20:43] datajud_tjdft    FAIL  !is.na(key) não é TRUE 
+[2026-09-07 14:20:44] datajud_tjsp     FAIL  !is.na(key) não é TRUE 
+[2026-09-07 14:20:44] datajud_tjrs     FAIL  !is.na(key) não é TRUE 
+[2026-09-07 14:20:45] datajud_tjal     FAIL  !is.na(key) não é TRUE 
+[2026-09-07 14:20:46] bcb_ipca         OK    139 months, last=2026-07-01 
+[2026-09-07 14:20:46] web_tjsp         OK    HTTP 200 
+[2026-09-07 14:20:48] web_tjrs         OK    HTTP 200 
+[2026-09-07 14:20:49] web_tjmg         FAIL  HTTP 401 
+[2026-09-07 14:20:49] web_tjal         FAIL  HTTP 503 
+[2026-09-07 14:20:49] web_stj_scon     FAIL  HTTP 403 
+[2026-09-07 14:20:49] done: 16 checks, 8 OK 
+[2026-09-07 19:38:05] tjdft_count      OK    2015= 5.502 2020= 5.895 2024= 9.697 2025=11.374 
+[2026-09-07 19:38:07] tjdft_fulltext   OK    hits=820 page0=40 with_fulltext=40 mean_chars=37912 
+[2026-09-07 19:38:15] stj_ckan         OK    21 datasets 
+[2026-09-07 19:38:16] stj_integras     OK    2597 resources; zips=1288; total=11.2 GB 
+[2026-09-07 19:38:17] stj_temas        OK    2400 precedentes; 58 mention dano moral 
+[2026-09-07 19:38:17] datajud_key      OK    key resolved 
+[2026-09-07 19:38:18] datajud_tjdft    OK    total=39.097 grau=[JE:21197 G1:12017 G2:4132 TR:1751] 
+[2026-09-07 19:38:20] datajud_tjsp     OK    total=282.464 grau=[G1:149735 G2:69961 TR:31915 JE:30853] 
+[2026-09-07 19:38:20] datajud_tjrs     OK    total=48.957 grau=[JE:18161 TR:15061 G2:8532 G1:7203] 
+[2026-09-07 19:38:21] datajud_tjal     OK    total=65.093 grau=[JE:34130 G1:13947 TR:8641 G2:8375] 
+[2026-09-07 19:38:22] bcb_ipca         OK    139 months, last=2026-07-01 
+[2026-09-07 19:38:22] web_tjsp         OK    HTTP 200 
+[2026-09-07 19:38:24] web_tjrs         OK    HTTP 200 
+[2026-09-07 19:38:24] web_tjmg         FAIL  HTTP 401 
+[2026-09-07 19:38:24] web_tjal         FAIL  HTTP 503 
+[2026-09-07 19:38:25] web_stj_scon     FAIL  HTTP 403 
+[2026-09-07 19:38:25] done: 16 checks, 13 OK 
