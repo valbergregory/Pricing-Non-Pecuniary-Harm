@@ -26,5 +26,5 @@ outputs/logs/*.jsonl
 # SO
 Thumbs.db
 .DS_Store
-outputs/logs/*_console.txt
+outputs/logs/*_console*.txt
 outputs/logs/renv_init.txt
