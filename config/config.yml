@@ -1,0 +1,47 @@
+# Configuração central (lida por R/01_config.R via yaml::read_yaml)
+project:
+  name: Pricing-Non-Pecuniary-Harm
+  stage: feasibility          # feasibility | phase1 | phase2
+  seed: 20260905
+
+sources:
+  tjdft:
+    endpoint: "https://jurisdf.tjdft.jus.br/api/v1/pesquisa"
+    page_size: 40             # máximo aceito pela API (testado em 2026-09-05)
+    sleep_seconds: 1.0        # cortesia entre páginas
+    query: "dano moral"
+    sinonimos: false
+    espelho: true
+    inteiro_teor_search: false
+    return_full_text: true
+  stj_ckan:
+    base: "https://dadosabertos.web.stj.jus.br/api/3/action"
+    datasets:
+      integras: "integras-de-decisoes-terminativas-e-acordaos-do-diario-da-justica"
+      espelhos_3t: "espelhos-de-acordaos-terceira-turma"
+      espelhos_4t: "espelhos-de-acordaos-quarta-turma"
+      precedentes: "precedentes-qualificados"
+  datajud:
+    base: "https://api-publica.datajud.cnj.jus.br"
+    # Chave PUBLICA divulgada pelo CNJ em https://datajud-wiki.cnj.jus.br/api-publica/acesso
+    # (pode mudar a qualquer momento). Lida de DATAJUD_APIKEY em .Renviron; se ausente,
+    # scripts/01 busca o valor atual na própria página do CNJ.
+    subject_codes: [10433, 7779, 9992]   # Indenização por Dano Moral (civil, consumidor, adm.)
+  bcb_sgs:
+    ipca_series: 433
+    url: "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados"
+
+pilot:
+  window: ["2024-03-01", "2024-03-31"]   # 1 mês; ~820 acórdãos (hits medidos em 2026-09-05)
+  max_pages: 30
+
+temporal:
+  study_window: ["2015-01-01", "2025-12-31"]
+  price_base: "2025-12"   # mês-base do deflacionamento (decidir D4)
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  metadata: data/metadata
+  db: data/processed/pnph.duckdb

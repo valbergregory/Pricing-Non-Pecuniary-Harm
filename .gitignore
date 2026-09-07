@@ -1,0 +1,43 @@
+# Dados (nunca versionar bases brutas/grandes)
+data/raw/
+data/interim/
+data/processed/
+data/external/
+!data/*/.gitkeep
+# Banco local
+*.duckdb
+*.duckdb.wal
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+_targets/
+renv/library/
+renv/staging/
+renv/local/
+renv/cache/
+# Outputs pesados (regeneráveis)
+outputs/models/*.rds
+outputs/logs/*.jsonl
+# Credenciais
+.Renviron
+.env
+# SO
+Thumbs.db
+.DS_Store
+
+# --- Texto do artigo (local; nao versionado). Publicar apenas o PDF final em artigo/ ---
+overleaf/
+article/
+anpec/
+paper*/
+outputs/overleaf/
+*.tex
+*.bib
+*.pdf
+*.docx
+*.qmd
+CLAUDE.md
+.claude/
+!artigo/*.pdf

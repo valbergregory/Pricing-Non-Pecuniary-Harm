@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Pricing Non-Pecuniary Harm: research compendium"
+message: "If you use this compendium, please cite it."
+type: software
+authors:
+  - family-names: "Gregory"
+    given-names: "Valber"
+    email: "valber.gregory@gmail.com"
+date-released: "2026-09-05"
+version: "0.1.0"
+license: MIT
