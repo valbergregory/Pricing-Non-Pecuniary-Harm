@@ -82,4 +82,6 @@ reported at court/panel level. Full texts stay outside Git.
 
 ## Licence
 
+Code: MIT ([LICENSE](LICENSE)). Text, documentation and data: see [LICENSING.md](LICENSING.md).
+
 Code: MIT. Text and figures: CC BY 4.0. See `LICENSE` and `CITATION.cff`.
