@@ -1376,3 +1376,1165 @@
 [2026-09-07 21:05:20]   page 11/15: 40 records (cum 440) 
 [2026-09-07 21:05:22]   page 12/15: 40 records (cum 480) 
 [2026-09-07 21:05:26]   page 13/15: 40 records (cum 520) 
+[2026-09-12 15:34:43] study window 2015-01-01..2025-12-31: 132 monthly windows 
+[2026-09-12 15:34:44] 2015-01-01..2015-01-31: 291 hits, 8/8 pages already collected — skip 
+[2026-09-12 15:34:46] 2015-02-01..2015-02-28: 428 hits, 11/11 pages already collected — skip 
+[2026-09-12 15:34:47] 2015-03-01..2015-03-31: 379 hits, 10/10 pages already collected — skip 
+[2026-09-12 15:34:48] 2015-04-01..2015-04-30: 510 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:34:49] 2015-05-01..2015-05-31: 456 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:34:50] 2015-06-01..2015-06-30: 552 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:34:51] 2015-07-01..2015-07-31: 542 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:34:53] 2015-08-01..2015-08-31: 399 hits, 10/10 pages already collected — skip 
+[2026-09-12 15:34:54] 2015-09-01..2015-09-30: 650 hits, 17/17 pages already collected — skip 
+[2026-09-12 15:34:55] 2015-10-01..2015-10-31: 390 hits, 10/10 pages already collected — skip 
+[2026-09-12 15:34:56] 2015-11-01..2015-11-30: 470 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:34:57] 2015-12-01..2015-12-31: 435 hits, 11/11 pages already collected — skip 
+[2026-09-12 15:34:58] 2016-01-01..2016-01-31: 156 hits, 4/4 pages already collected — skip 
+[2026-09-12 15:35:00] 2016-02-01..2016-02-29: 602 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:01] 2016-03-01..2016-03-31: 698 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:35:02] 2016-04-01..2016-04-30: 526 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:03] 2016-05-01..2016-05-31: 517 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:04] 2016-06-01..2016-06-30: 589 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:05] 2016-07-01..2016-07-31: 487 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:06] 2016-08-01..2016-08-31: 579 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:08] 2016-09-01..2016-09-30: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:09] 2016-10-01..2016-10-31: 628 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:10] 2016-11-01..2016-11-30: 611 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:11] 2016-12-01..2016-12-31: 280 hits, 7/7 pages already collected — skip 
+[2026-09-12 15:35:12] 2017-01-01..2017-01-31: 61 hits, 2/2 pages already collected — skip 
+[2026-09-12 15:35:13] 2017-02-01..2017-02-28: 749 hits, 19/19 pages already collected — skip 
+[2026-09-12 15:35:15] 2017-03-01..2017-03-31: 600 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:16] 2017-04-01..2017-04-30: 482 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:17] 2017-05-01..2017-05-31: 674 hits, 17/17 pages already collected — skip 
+[2026-09-12 15:35:18] 2017-06-01..2017-06-30: 604 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:19] 2017-07-01..2017-07-31: 468 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:35:20] 2017-08-01..2017-08-31: 685 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:35:22] 2017-09-01..2017-09-30: 503 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:23] 2017-10-01..2017-10-31: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:24] 2017-11-01..2017-11-30: 604 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:25] 2017-12-01..2017-12-31: 375 hits, 10/10 pages already collected — skip 
+[2026-09-12 15:35:26] 2018-01-01..2018-01-31: 291 hits, 8/8 pages already collected — skip 
+[2026-09-12 15:35:27] 2018-02-01..2018-02-28: 622 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:29] 2018-03-01..2018-03-31: 535 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:30] 2018-04-01..2018-04-30: 558 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:31] 2018-05-01..2018-05-31: 707 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:35:32] 2018-06-01..2018-06-30: 608 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:33] 2018-07-01..2018-07-31: 537 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:34] 2018-08-01..2018-08-31: 839 hits, 21/21 pages already collected — skip 
+[2026-09-12 15:35:35] 2018-09-01..2018-09-30: 561 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:37] 2018-10-01..2018-10-31: 597 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:38] 2018-11-01..2018-11-30: 580 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:39] 2018-12-01..2018-12-31: 296 hits, 8/8 pages already collected — skip 
+[2026-09-12 15:35:40] 2019-01-01..2019-01-31: 268 hits, 7/7 pages already collected — skip 
+[2026-09-12 15:35:41] 2019-02-01..2019-02-28: 689 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:35:43] 2019-03-01..2019-03-31: 416 hits, 11/11 pages already collected — skip 
+[2026-09-12 15:35:44] 2019-04-01..2019-04-30: 513 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:45] 2019-05-01..2019-05-31: 661 hits, 17/17 pages already collected — skip 
+[2026-09-12 15:35:46] 2019-06-01..2019-06-30: 579 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:35:47] 2019-07-01..2019-07-31: 541 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:48] 2019-08-01..2019-08-31: 613 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:50] 2019-09-01..2019-09-30: 551 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:35:51] 2019-10-01..2019-10-31: 603 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:35:52] 2019-11-01..2019-11-30: 518 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:53] 2019-12-01..2019-12-31: 409 hits, 11/11 pages already collected — skip 
+[2026-09-12 15:35:54] 2020-01-01..2020-01-31: 188 hits, 5/5 pages already collected — skip 
+[2026-09-12 15:35:55] 2020-02-01..2020-02-29: 450 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:35:57] 2020-03-01..2020-03-31: 489 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:35:58] 2020-04-01..2020-04-30: 285 hits, 8/8 pages already collected — skip 
+[2026-09-12 15:35:59] 2020-05-01..2020-05-31: 459 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:36:00] 2020-06-01..2020-06-30: 387 hits, 10/10 pages already collected — skip 
+[2026-09-12 15:36:01] 2020-07-01..2020-07-31: 649 hits, 17/17 pages already collected — skip 
+[2026-09-12 15:36:02] 2020-08-01..2020-08-31: 698 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:36:04] 2020-09-01..2020-09-30: 695 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:36:05] 2020-10-01..2020-10-31: 593 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:36:06] 2020-11-01..2020-11-30: 570 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:36:07] 2020-12-01..2020-12-31: 432 hits, 11/11 pages already collected — skip 
+[2026-09-12 15:36:08] 2021-01-01..2021-01-31: 255 hits, 7/7 pages already collected — skip 
+[2026-09-12 15:36:09] 2021-02-01..2021-02-28: 507 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:36:11] 2021-03-01..2021-03-31: 628 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:36:12] 2021-04-01..2021-04-30: 508 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:36:13] 2021-05-01..2021-05-31: 583 hits, 15/15 pages already collected — skip 
+[2026-09-12 15:36:14] 2021-06-01..2021-06-30: 632 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:36:15] 2021-07-01..2021-07-31: 608 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:36:16] 2021-08-01..2021-08-31: 605 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:36:18] 2021-09-01..2021-09-30: 609 hits, 16/16 pages already collected — skip 
+[2026-09-12 15:36:19] 2021-10-01..2021-10-31: 465 hits, 12/12 pages already collected — skip 
+[2026-09-12 15:36:20] 2021-11-01..2021-11-30: 525 hits, 14/14 pages already collected — skip 
+[2026-09-12 15:36:21] 2021-12-01..2021-12-31: 344 hits, 9/9 pages already collected — skip 
+[2026-09-12 15:36:22] 2022-01-01..2022-01-31: 89 hits, 3/3 pages already collected — skip 
+[2026-09-12 15:36:23] 2022-02-01..2022-02-28: 692 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:36:25] 2022-03-01..2022-03-31: 697 hits, 18/18 pages already collected — skip 
+[2026-09-12 15:36:26] 2022-04-01..2022-04-30: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 15:36:27] 2022-05-01..2022-05-31: 597 hits, 15 pages (13 done) — collecting 
+[2026-09-12 15:36:29] TJDFT 2022-05-01..2022-05-31: 597 hits, 15 pages (max Inf) 
+[2026-09-12 15:36:29]   page 1/15: 40 records (cum 40) 
+[2026-09-12 15:36:32]   page 2/15: 40 records (cum 80) 
+[2026-09-12 15:36:34]   page 3/15: 40 records (cum 120) 
+[2026-09-12 15:36:37]   page 4/15: 40 records (cum 160) 
+[2026-09-12 15:36:40]   page 5/15: 40 records (cum 200) 
+[2026-09-12 15:36:42]   page 6/15: 40 records (cum 240) 
+[2026-09-12 15:36:45]   page 7/15: 40 records (cum 280) 
+[2026-09-12 15:36:48]   page 8/15: 40 records (cum 320) 
+[2026-09-12 15:36:51]   page 9/15: 40 records (cum 360) 
+[2026-09-12 15:36:54]   page 10/15: 40 records (cum 400) 
+[2026-09-12 15:36:57]   page 11/15: 40 records (cum 440) 
+[2026-09-12 15:37:00]   page 12/15: 40 records (cum 480) 
+[2026-09-12 15:37:02]   page 13/15: 40 records (cum 520) 
+[2026-09-12 15:37:06]   page 14/15: 40 records (cum 560) 
+[2026-09-12 15:37:09]   page 15/15: 37 records (cum 597) 
+[2026-09-12 15:37:11] 2022-06-01..2022-06-30: 692 hits, 18 pages (0 done) — collecting 
+[2026-09-12 15:37:12] TJDFT 2022-06-01..2022-06-30: 692 hits, 18 pages (max Inf) 
+[2026-09-12 15:37:13]   page 1/18: 40 records (cum 40) 
+[2026-09-12 15:37:16]   page 2/18: 40 records (cum 80) 
+[2026-09-12 15:37:19]   page 3/18: 40 records (cum 120) 
+[2026-09-12 15:37:22]   page 4/18: 40 records (cum 160) 
+[2026-09-12 15:37:24]   page 5/18: 40 records (cum 200) 
+[2026-09-12 15:37:27]   page 6/18: 40 records (cum 240) 
+[2026-09-12 15:37:30]   page 7/18: 40 records (cum 280) 
+[2026-09-12 15:37:33]   page 8/18: 40 records (cum 320) 
+[2026-09-12 15:37:39]   page 9/18: 40 records (cum 360) 
+[2026-09-12 15:37:42]   page 10/18: 40 records (cum 400) 
+[2026-09-12 15:37:45]   page 11/18: 40 records (cum 440) 
+[2026-09-12 15:37:48]   page 12/18: 40 records (cum 480) 
+[2026-09-12 15:37:51]   page 13/18: 40 records (cum 520) 
+[2026-09-12 15:37:55]   page 14/18: 40 records (cum 560) 
+[2026-09-12 15:37:58]   page 15/18: 40 records (cum 600) 
+[2026-09-12 15:38:00]   page 16/18: 40 records (cum 640) 
+[2026-09-12 15:38:03]   page 17/18: 40 records (cum 680) 
+[2026-09-12 15:38:05]   page 18/18: 12 records (cum 692) 
+[2026-09-12 15:38:07] 2022-07-01..2022-07-31: 558 hits, 14 pages (0 done) — collecting 
+[2026-09-12 15:38:09] TJDFT 2022-07-01..2022-07-31: 558 hits, 14 pages (max Inf) 
+[2026-09-12 15:38:09]   page 1/14: 40 records (cum 40) 
+[2026-09-12 15:38:12]   page 2/14: 40 records (cum 80) 
+[2026-09-12 15:38:15]   page 3/14: 40 records (cum 120) 
+[2026-09-12 15:38:18]   page 4/14: 40 records (cum 160) 
+[2026-09-12 15:38:20]   page 5/14: 40 records (cum 200) 
+[2026-09-12 15:38:23]   page 6/14: 40 records (cum 240) 
+[2026-09-12 15:38:25]   page 7/14: 40 records (cum 280) 
+[2026-09-12 15:38:28]   page 8/14: 40 records (cum 320) 
+[2026-09-12 15:38:31]   page 9/14: 40 records (cum 360) 
+[2026-09-12 15:38:35]   page 10/14: 40 records (cum 400) 
+[2026-09-12 15:38:40]   page 11/14: 40 records (cum 440) 
+[2026-09-12 15:38:45]   page 12/14: 40 records (cum 480) 
+[2026-09-12 15:38:49]   page 13/14: 40 records (cum 520) 
+[2026-09-12 15:38:54]   page 14/14: 38 records (cum 558) 
+[2026-09-12 15:38:56] 2022-08-01..2022-08-31: 573 hits, 15 pages (0 done) — collecting 
+[2026-09-12 15:39:00] TJDFT 2022-08-01..2022-08-31: 573 hits, 15 pages (max Inf) 
+[2026-09-12 15:39:00]   page 1/15: 40 records (cum 40) 
+[2026-09-12 15:39:04]   page 2/15: 40 records (cum 80) 
+[2026-09-12 15:39:08]   page 3/15: 40 records (cum 120) 
+[2026-09-12 15:39:11]   page 4/15: 40 records (cum 160) 
+[2026-09-12 15:39:15]   page 5/15: 40 records (cum 200) 
+[2026-09-12 15:39:19]   page 6/15: 40 records (cum 240) 
+[2026-09-12 15:39:21]   page 7/15: 40 records (cum 280) 
+[2026-09-12 15:39:24]   page 8/15: 40 records (cum 320) 
+[2026-09-12 15:39:27]   page 9/15: 40 records (cum 360) 
+[2026-09-12 15:39:31]   page 10/15: 40 records (cum 400) 
+[2026-09-12 15:39:36]   page 11/15: 40 records (cum 440) 
+[2026-09-12 15:39:40]   page 12/15: 40 records (cum 480) 
+[2026-09-12 15:39:45]   page 13/15: 40 records (cum 520) 
+[2026-09-12 15:39:51]   page 14/15: 40 records (cum 560) 
+[2026-09-12 15:39:55]   page 15/15: 13 records (cum 573) 
+[2026-09-12 15:39:57] 2022-09-01..2022-09-30: 503 hits, 13 pages (0 done) — collecting 
+[2026-09-12 15:40:00] TJDFT 2022-09-01..2022-09-30: 503 hits, 13 pages (max Inf) 
+[2026-09-12 15:40:01]   page 1/13: 40 records (cum 40) 
+[2026-09-12 15:40:05]   page 2/13: 40 records (cum 80) 
+[2026-09-12 15:40:09]   page 3/13: 40 records (cum 120) 
+[2026-09-12 15:40:13]   page 4/13: 40 records (cum 160) 
+[2026-09-12 15:40:16]   page 5/13: 40 records (cum 200) 
+[2026-09-12 15:40:20]   page 6/13: 40 records (cum 240) 
+[2026-09-12 15:40:24]   page 7/13: 40 records (cum 280) 
+[2026-09-12 15:40:28]   page 8/13: 40 records (cum 320) 
+[2026-09-12 15:40:33]   page 9/13: 40 records (cum 360) 
+[2026-09-12 15:40:36]   page 10/13: 40 records (cum 400) 
+[2026-09-12 15:40:40]   page 11/13: 40 records (cum 440) 
+[2026-09-12 15:40:45]   page 12/13: 40 records (cum 480) 
+[2026-09-12 15:40:48]   page 13/13: 23 records (cum 503) 
+[2026-09-12 15:40:50] 2022-10-01..2022-10-31: 481 hits, 13 pages (0 done) — collecting 
+[2026-09-12 15:40:54] TJDFT 2022-10-01..2022-10-31: 481 hits, 13 pages (max Inf) 
+[2026-09-12 15:40:54]   page 1/13: 40 records (cum 40) 
+[2026-09-12 15:40:58]   page 2/13: 40 records (cum 80) 
+[2026-09-12 15:41:00]   page 3/13: 40 records (cum 120) 
+[2026-09-12 15:41:03]   page 4/13: 40 records (cum 160) 
+[2026-09-12 15:41:07]   page 5/13: 40 records (cum 200) 
+[2026-09-12 15:41:12]   page 6/13: 40 records (cum 240) 
+[2026-09-12 15:41:16]   page 7/13: 40 records (cum 280) 
+[2026-09-12 15:41:19]   page 8/13: 40 records (cum 320) 
+[2026-09-12 15:41:25]   page 9/13: 40 records (cum 360) 
+[2026-09-12 15:41:29]   page 10/13: 40 records (cum 400) 
+[2026-09-12 15:41:32]   page 11/13: 40 records (cum 440) 
+[2026-09-12 15:41:36]   page 12/13: 40 records (cum 480) 
+[2026-09-12 15:41:38]   page 13/13: 1 records (cum 481) 
+[2026-09-12 15:41:40] 2022-11-01..2022-11-30: 481 hits, 13 pages (0 done) — collecting 
+[2026-09-12 15:41:43] TJDFT 2022-11-01..2022-11-30: 481 hits, 13 pages (max Inf) 
+[2026-09-12 15:41:44]   page 1/13: 40 records (cum 40) 
+[2026-09-12 15:41:49]   page 2/13: 40 records (cum 80) 
+[2026-09-12 15:41:54]   page 3/13: 40 records (cum 120) 
+[2026-09-12 15:41:57]   page 4/13: 40 records (cum 160) 
+[2026-09-12 15:42:00]   page 5/13: 40 records (cum 200) 
+[2026-09-12 15:42:02]   page 6/13: 40 records (cum 240) 
+[2026-09-12 15:42:06]   page 7/13: 40 records (cum 280) 
+[2026-09-12 15:42:09]   page 8/13: 40 records (cum 320) 
+[2026-09-12 15:42:12]   page 9/13: 40 records (cum 360) 
+[2026-09-12 15:42:15]   page 10/13: 40 records (cum 400) 
+[2026-09-12 15:42:20]   page 11/13: 40 records (cum 440) 
+[2026-09-12 15:42:23]   page 12/13: 40 records (cum 480) 
+[2026-09-12 15:42:24]   page 13/13: 1 records (cum 481) 
+[2026-09-12 15:42:27] 2022-12-01..2022-12-31: 312 hits, 8 pages (0 done) — collecting 
+[2026-09-12 15:42:29] TJDFT 2022-12-01..2022-12-31: 312 hits, 8 pages (max Inf) 
+[2026-09-12 15:42:29]   page 1/8: 40 records (cum 40) 
+[2026-09-12 15:42:32]   page 2/8: 40 records (cum 80) 
+[2026-09-12 15:42:36]   page 3/8: 40 records (cum 120) 
+[2026-09-12 15:42:41]   page 4/8: 40 records (cum 160) 
+[2026-09-12 15:42:43]   page 5/8: 40 records (cum 200) 
+[2026-09-12 15:42:46]   page 6/8: 40 records (cum 240) 
+[2026-09-12 15:42:48]   page 7/8: 40 records (cum 280) 
+[2026-09-12 15:42:51]   page 8/8: 32 records (cum 312) 
+[2026-09-12 15:42:53] 2023-01-01..2023-01-31: 186 hits, 5 pages (0 done) — collecting 
+[2026-09-12 15:42:54] TJDFT 2023-01-01..2023-01-31: 186 hits, 5 pages (max Inf) 
+[2026-09-12 15:42:55]   page 1/5: 40 records (cum 40) 
+[2026-09-12 15:42:58]   page 2/5: 40 records (cum 80) 
+[2026-09-12 15:43:01]   page 3/5: 40 records (cum 120) 
+[2026-09-12 15:43:03]   page 4/5: 40 records (cum 160) 
+[2026-09-12 15:43:06]   page 5/5: 26 records (cum 186) 
+[2026-09-12 15:43:08] 2023-02-01..2023-02-28: 532 hits, 14 pages (0 done) — collecting 
+[2026-09-12 15:43:10] TJDFT 2023-02-01..2023-02-28: 532 hits, 14 pages (max Inf) 
+[2026-09-12 15:43:11]   page 1/14: 40 records (cum 40) 
+[2026-09-12 15:43:13]   page 2/14: 40 records (cum 80) 
+[2026-09-12 15:43:16]   page 3/14: 40 records (cum 120) 
+[2026-09-12 15:43:18]   page 4/14: 40 records (cum 160) 
+[2026-09-12 15:43:21]   page 5/14: 40 records (cum 200) 
+[2026-09-12 15:43:26]   page 6/14: 40 records (cum 240) 
+[2026-09-12 15:43:29]   page 7/14: 40 records (cum 280) 
+[2026-09-12 15:43:32]   page 8/14: 40 records (cum 320) 
+[2026-09-12 15:43:34]   page 9/14: 40 records (cum 360) 
+[2026-09-12 15:43:37]   page 10/14: 40 records (cum 400) 
+[2026-09-12 15:43:39]   page 11/14: 40 records (cum 440) 
+[2026-09-12 15:43:41]   page 12/14: 40 records (cum 480) 
+[2026-09-12 15:43:45]   page 13/14: 40 records (cum 520) 
+[2026-09-12 15:43:47]   page 14/14: 12 records (cum 532) 
+[2026-09-12 15:43:50] 2023-03-01..2023-03-31: 779 hits, 20 pages (0 done) — collecting 
+[2026-09-12 15:43:52] TJDFT 2023-03-01..2023-03-31: 779 hits, 20 pages (max Inf) 
+[2026-09-12 15:43:52]   page 1/20: 40 records (cum 40) 
+[2026-09-12 15:43:56]   page 2/20: 40 records (cum 80) 
+[2026-09-12 15:43:58]   page 3/20: 40 records (cum 120) 
+[2026-09-12 15:44:01]   page 4/20: 40 records (cum 160) 
+[2026-09-12 15:44:04]   page 5/20: 40 records (cum 200) 
+[2026-09-12 15:44:06]   page 6/20: 40 records (cum 240) 
+[2026-09-12 15:44:09]   page 7/20: 40 records (cum 280) 
+[2026-09-12 15:44:12]   page 8/20: 40 records (cum 320) 
+[2026-09-12 15:44:15]   page 9/20: 40 records (cum 360) 
+[2026-09-12 15:44:18]   page 10/20: 40 records (cum 400) 
+[2026-09-12 15:44:21]   page 11/20: 40 records (cum 440) 
+[2026-09-12 15:44:24]   page 12/20: 40 records (cum 480) 
+[2026-09-12 15:44:29]   page 13/20: 40 records (cum 520) 
+[2026-09-12 15:44:32]   page 14/20: 40 records (cum 560) 
+[2026-09-12 15:44:36]   page 15/20: 40 records (cum 600) 
+[2026-09-12 15:44:39]   page 16/20: 40 records (cum 640) 
+[2026-09-12 15:44:42]   page 17/20: 40 records (cum 680) 
+[2026-09-12 15:44:44]   page 18/20: 40 records (cum 720) 
+[2026-09-12 15:44:47]   page 19/20: 40 records (cum 760) 
+[2026-09-12 15:44:50]   page 20/20: 19 records (cum 779) 
+[2026-09-12 15:44:52] 2023-04-01..2023-04-30: 471 hits, 12 pages (0 done) — collecting 
+[2026-09-12 15:44:54] TJDFT 2023-04-01..2023-04-30: 471 hits, 12 pages (max Inf) 
+[2026-09-12 15:44:54]   page 1/12: 40 records (cum 40) 
+[2026-09-12 15:44:59]   page 2/12: 40 records (cum 80) 
+[2026-09-12 15:45:02]   page 3/12: 40 records (cum 120) 
+[2026-09-12 15:45:05]   page 4/12: 40 records (cum 160) 
+[2026-09-12 15:45:08]   page 5/12: 40 records (cum 200) 
+[2026-09-12 15:45:12]   page 6/12: 40 records (cum 240) 
+[2026-09-12 15:45:15]   page 7/12: 40 records (cum 280) 
+[2026-09-12 15:45:18]   page 8/12: 40 records (cum 320) 
+[2026-09-12 15:45:21]   page 9/12: 40 records (cum 360) 
+[2026-09-12 15:45:24]   page 10/12: 40 records (cum 400) 
+[2026-09-12 15:45:28]   page 11/12: 40 records (cum 440) 
+[2026-09-12 15:45:31]   page 12/12: 31 records (cum 471) 
+[2026-09-12 15:45:33] 2023-05-01..2023-05-31: 695 hits, 18 pages (0 done) — collecting 
+[2026-09-12 15:45:34] TJDFT 2023-05-01..2023-05-31: 695 hits, 18 pages (max Inf) 
+[2026-09-12 15:45:35]   page 1/18: 40 records (cum 40) 
+[2026-09-12 15:45:38]   page 2/18: 40 records (cum 80) 
+[2026-09-12 15:45:42]   page 3/18: 40 records (cum 120) 
+[2026-09-12 15:45:46]   page 4/18: 40 records (cum 160) 
+[2026-09-12 15:45:49]   page 5/18: 40 records (cum 200) 
+[2026-09-12 15:45:53]   page 6/18: 40 records (cum 240) 
+[2026-09-12 15:45:56]   page 7/18: 40 records (cum 280) 
+[2026-09-12 15:45:58]   page 8/18: 40 records (cum 320) 
+[2026-09-12 15:46:01]   page 9/18: 40 records (cum 360) 
+[2026-09-12 15:46:04]   page 10/18: 40 records (cum 400) 
+[2026-09-12 15:46:07]   page 11/18: 40 records (cum 440) 
+[2026-09-12 15:46:11]   page 12/18: 40 records (cum 480) 
+[2026-09-12 15:46:14]   page 13/18: 40 records (cum 520) 
+[2026-09-12 15:46:17]   page 14/18: 40 records (cum 560) 
+[2026-09-12 15:46:20]   page 15/18: 40 records (cum 600) 
+[2026-09-12 15:46:22]   page 16/18: 40 records (cum 640) 
+[2026-09-12 15:46:28]   page 17/18: 40 records (cum 680) 
+[2026-09-12 15:46:30]   page 18/18: 15 records (cum 695) 
+[2026-09-12 15:46:32] 2023-06-01..2023-06-30: 721 hits, 19 pages (0 done) — collecting 
+[2026-09-12 15:46:35] TJDFT 2023-06-01..2023-06-30: 721 hits, 19 pages (max Inf) 
+[2026-09-12 15:46:35]   page 1/19: 40 records (cum 40) 
+[2026-09-12 15:46:40]   page 2/19: 40 records (cum 80) 
+[2026-09-12 15:46:44]   page 3/19: 40 records (cum 120) 
+[2026-09-12 15:46:48]   page 4/19: 40 records (cum 160) 
+[2026-09-12 15:46:50]   page 5/19: 40 records (cum 200) 
+[2026-09-12 15:46:53]   page 6/19: 40 records (cum 240) 
+[2026-09-12 15:46:56]   page 7/19: 40 records (cum 280) 
+[2026-09-12 15:46:59]   page 8/19: 40 records (cum 320) 
+[2026-09-12 15:47:03]   page 9/19: 40 records (cum 360) 
+[2026-09-12 15:47:06]   page 10/19: 40 records (cum 400) 
+[2026-09-12 15:47:09]   page 11/19: 40 records (cum 440) 
+[2026-09-12 15:47:12]   page 12/19: 40 records (cum 480) 
+[2026-09-12 15:47:16]   page 13/19: 40 records (cum 520) 
+[2026-09-12 15:47:19]   page 14/19: 40 records (cum 560) 
+[2026-09-12 15:47:23]   page 15/19: 40 records (cum 600) 
+[2026-09-12 15:47:28]   page 16/19: 40 records (cum 640) 
+[2026-09-12 15:47:31]   page 17/19: 40 records (cum 680) 
+[2026-09-12 15:47:33]   page 18/19: 40 records (cum 720) 
+[2026-09-12 15:47:35]   page 19/19: 1 records (cum 721) 
+[2026-09-12 15:47:37] 2023-07-01..2023-07-31: 653 hits, 17 pages (0 done) — collecting 
+[2026-09-12 15:47:39] TJDFT 2023-07-01..2023-07-31: 653 hits, 17 pages (max Inf) 
+[2026-09-12 15:47:40]   page 1/17: 40 records (cum 40) 
+[2026-09-12 15:47:44]   page 2/17: 40 records (cum 80) 
+[2026-09-12 15:47:47]   page 3/17: 40 records (cum 120) 
+[2026-09-12 15:47:51]   page 4/17: 40 records (cum 160) 
+[2026-09-12 15:47:54]   page 5/17: 40 records (cum 200) 
+[2026-09-12 15:47:57]   page 6/17: 40 records (cum 240) 
+[2026-09-12 15:48:00]   page 7/17: 40 records (cum 280) 
+[2026-09-12 15:48:03]   page 8/17: 40 records (cum 320) 
+[2026-09-12 15:48:06]   page 9/17: 40 records (cum 360) 
+[2026-09-12 15:48:09]   page 10/17: 40 records (cum 400) 
+[2026-09-12 15:48:12]   page 11/17: 40 records (cum 440) 
+[2026-09-12 15:48:15]   page 12/17: 40 records (cum 480) 
+[2026-09-12 15:48:59] ERROR: Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()` at httr2/R/req-perform.R:222:5:
+! Timeout was reached [jurisdf.tjdft.jus.br]:
+Recv failure: Connection was reset 
+[2026-09-12 15:49:10] 2023-08-01..2023-08-31: 835 hits, 21 pages (0 done) — collecting 
+[2026-09-12 15:49:12] TJDFT 2023-08-01..2023-08-31: 835 hits, 21 pages (max Inf) 
+[2026-09-12 15:49:12]   page 1/21: 40 records (cum 40) 
+[2026-09-12 15:49:16]   page 2/21: 40 records (cum 80) 
+[2026-09-12 15:49:21]   page 3/21: 40 records (cum 120) 
+[2026-09-12 15:49:25]   page 4/21: 40 records (cum 160) 
+[2026-09-12 15:49:28]   page 5/21: 40 records (cum 200) 
+[2026-09-12 15:49:31]   page 6/21: 40 records (cum 240) 
+[2026-09-12 15:49:35]   page 7/21: 40 records (cum 280) 
+[2026-09-12 15:49:38]   page 8/21: 40 records (cum 320) 
+[2026-09-12 15:49:41]   page 9/21: 40 records (cum 360) 
+[2026-09-12 15:49:44]   page 10/21: 40 records (cum 400) 
+[2026-09-12 15:49:49]   page 11/21: 40 records (cum 440) 
+[2026-09-12 15:49:51]   page 12/21: 40 records (cum 480) 
+[2026-09-12 15:49:54]   page 13/21: 40 records (cum 520) 
+[2026-09-12 15:49:57]   page 14/21: 40 records (cum 560) 
+[2026-09-12 15:49:59]   page 15/21: 40 records (cum 600) 
+[2026-09-12 15:50:01]   page 16/21: 40 records (cum 640) 
+[2026-09-12 15:50:04]   page 17/21: 40 records (cum 680) 
+[2026-09-12 15:50:07]   page 18/21: 40 records (cum 720) 
+[2026-09-12 15:50:11]   page 19/21: 40 records (cum 760) 
+[2026-09-12 15:50:14]   page 20/21: 40 records (cum 800) 
+[2026-09-12 15:50:18]   page 21/21: 35 records (cum 835) 
+[2026-09-12 15:50:20] 2023-09-01..2023-09-30: 728 hits, 19 pages (0 done) — collecting 
+[2026-09-12 15:50:22] TJDFT 2023-09-01..2023-09-30: 728 hits, 19 pages (max Inf) 
+[2026-09-12 15:50:24]   page 1/19: 40 records (cum 40) 
+[2026-09-12 15:50:28]   page 2/19: 40 records (cum 80) 
+[2026-09-12 15:50:32]   page 3/19: 40 records (cum 120) 
+[2026-09-12 15:50:35]   page 4/19: 40 records (cum 160) 
+[2026-09-12 15:50:38]   page 5/19: 40 records (cum 200) 
+[2026-09-12 15:50:41]   page 6/19: 40 records (cum 240) 
+[2026-09-12 15:50:43]   page 7/19: 40 records (cum 280) 
+[2026-09-12 15:50:46]   page 8/19: 40 records (cum 320) 
+[2026-09-12 15:50:49]   page 9/19: 40 records (cum 360) 
+[2026-09-12 15:50:53]   page 10/19: 40 records (cum 400) 
+[2026-09-12 15:50:56]   page 11/19: 40 records (cum 440) 
+[2026-09-12 15:50:59]   page 12/19: 40 records (cum 480) 
+[2026-09-12 15:51:02]   page 13/19: 40 records (cum 520) 
+[2026-09-12 15:51:05]   page 14/19: 40 records (cum 560) 
+[2026-09-12 15:51:07]   page 15/19: 40 records (cum 600) 
+[2026-09-12 15:51:10]   page 16/19: 40 records (cum 640) 
+[2026-09-12 15:51:13]   page 17/19: 40 records (cum 680) 
+[2026-09-12 15:51:16]   page 18/19: 40 records (cum 720) 
+[2026-09-12 15:51:18]   page 19/19: 8 records (cum 728) 
+[2026-09-12 15:51:20] 2023-10-01..2023-10-31: 829 hits, 21 pages (0 done) — collecting 
+[2026-09-12 15:51:22] TJDFT 2023-10-01..2023-10-31: 829 hits, 21 pages (max Inf) 
+[2026-09-12 15:51:24]   page 1/21: 40 records (cum 40) 
+[2026-09-12 15:51:27]   page 2/21: 40 records (cum 80) 
+[2026-09-12 15:51:31]   page 3/21: 40 records (cum 120) 
+[2026-09-12 15:51:34]   page 4/21: 40 records (cum 160) 
+[2026-09-12 15:51:38]   page 5/21: 40 records (cum 200) 
+[2026-09-12 15:51:41]   page 6/21: 40 records (cum 240) 
+[2026-09-12 15:51:44]   page 7/21: 40 records (cum 280) 
+[2026-09-12 15:51:48]   page 8/21: 40 records (cum 320) 
+[2026-09-12 15:51:51]   page 9/21: 40 records (cum 360) 
+[2026-09-12 15:51:54]   page 10/21: 40 records (cum 400) 
+[2026-09-12 15:51:57]   page 11/21: 40 records (cum 440) 
+[2026-09-12 15:52:00]   page 12/21: 40 records (cum 480) 
+[2026-09-12 15:52:03]   page 13/21: 40 records (cum 520) 
+[2026-09-12 15:52:06]   page 14/21: 40 records (cum 560) 
+[2026-09-12 15:52:10]   page 15/21: 40 records (cum 600) 
+[2026-09-12 15:52:15]   page 16/21: 40 records (cum 640) 
+[2026-09-12 15:52:18]   page 17/21: 40 records (cum 680) 
+[2026-09-12 15:52:21]   page 18/21: 40 records (cum 720) 
+[2026-09-12 15:52:24]   page 19/21: 40 records (cum 760) 
+[2026-09-12 15:52:26]   page 20/21: 40 records (cum 800) 
+[2026-09-12 15:52:29]   page 21/21: 29 records (cum 829) 
+[2026-09-12 15:52:31] 2023-11-01..2023-11-30: 1002 hits, 26 pages (0 done) — collecting 
+[2026-09-12 15:52:33] TJDFT 2023-11-01..2023-11-30: 1002 hits, 26 pages (max Inf) 
+[2026-09-12 15:52:34]   page 1/26: 40 records (cum 40) 
+[2026-09-12 15:52:37]   page 2/26: 40 records (cum 80) 
+[2026-09-12 15:52:40]   page 3/26: 40 records (cum 120) 
+[2026-09-12 15:52:43]   page 4/26: 40 records (cum 160) 
+[2026-09-12 15:52:47]   page 5/26: 40 records (cum 200) 
+[2026-09-12 15:52:50]   page 6/26: 40 records (cum 240) 
+[2026-09-12 15:52:53]   page 7/26: 40 records (cum 280) 
+[2026-09-12 15:52:57]   page 8/26: 40 records (cum 320) 
+[2026-09-12 15:53:00]   page 9/26: 40 records (cum 360) 
+[2026-09-12 15:53:03]   page 10/26: 40 records (cum 400) 
+[2026-09-12 15:53:07]   page 11/26: 40 records (cum 440) 
+[2026-09-12 15:53:12]   page 12/26: 40 records (cum 480) 
+[2026-09-12 15:53:14]   page 13/26: 40 records (cum 520) 
+[2026-09-12 15:53:17]   page 14/26: 40 records (cum 560) 
+[2026-09-12 15:53:20]   page 15/26: 40 records (cum 600) 
+[2026-09-12 15:53:23]   page 16/26: 40 records (cum 640) 
+[2026-09-12 15:53:26]   page 17/26: 40 records (cum 680) 
+[2026-09-12 15:53:29]   page 18/26: 40 records (cum 720) 
+[2026-09-12 15:53:32]   page 19/26: 40 records (cum 760) 
+[2026-09-12 15:53:36]   page 20/26: 40 records (cum 800) 
+[2026-09-12 15:53:39]   page 21/26: 40 records (cum 840) 
+[2026-09-12 15:53:42]   page 22/26: 40 records (cum 880) 
+[2026-09-12 15:53:44]   page 23/26: 40 records (cum 920) 
+[2026-09-12 15:53:46]   page 24/26: 40 records (cum 960) 
+[2026-09-12 15:53:50]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 15:53:51]   page 26/26: 2 records (cum 1002) 
+[2026-09-12 15:53:53] 2023-12-01..2023-12-31: 548 hits, 14 pages (0 done) — collecting 
+[2026-09-12 15:53:55] TJDFT 2023-12-01..2023-12-31: 548 hits, 14 pages (max Inf) 
+[2026-09-12 15:53:56]   page 1/14: 40 records (cum 40) 
+[2026-09-12 15:53:59]   page 2/14: 40 records (cum 80) 
+[2026-09-12 15:54:02]   page 3/14: 40 records (cum 120) 
+[2026-09-12 15:54:05]   page 4/14: 40 records (cum 160) 
+[2026-09-12 15:54:08]   page 5/14: 40 records (cum 200) 
+[2026-09-12 15:54:11]   page 6/14: 40 records (cum 240) 
+[2026-09-12 15:54:16]   page 7/14: 40 records (cum 280) 
+[2026-09-12 15:54:19]   page 8/14: 40 records (cum 320) 
+[2026-09-12 15:54:22]   page 9/14: 40 records (cum 360) 
+[2026-09-12 15:54:25]   page 10/14: 40 records (cum 400) 
+[2026-09-12 15:54:28]   page 11/14: 40 records (cum 440) 
+[2026-09-12 15:54:31]   page 12/14: 40 records (cum 480) 
+[2026-09-12 15:54:33]   page 13/14: 40 records (cum 520) 
+[2026-09-12 15:54:36]   page 14/14: 28 records (cum 548) 
+[2026-09-12 15:54:38] 2024-01-01..2024-01-31: 289 hits, 8 pages (0 done) — collecting 
+[2026-09-12 15:54:40] TJDFT 2024-01-01..2024-01-31: 289 hits, 8 pages (max Inf) 
+[2026-09-12 15:54:41]   page 1/8: 40 records (cum 40) 
+[2026-09-12 15:54:44]   page 2/8: 40 records (cum 80) 
+[2026-09-12 15:54:47]   page 3/8: 40 records (cum 120) 
+[2026-09-12 15:54:51]   page 4/8: 40 records (cum 160) 
+[2026-09-12 15:54:54]   page 5/8: 40 records (cum 200) 
+[2026-09-12 15:54:57]   page 6/8: 40 records (cum 240) 
+[2026-09-12 15:55:00]   page 7/8: 40 records (cum 280) 
+[2026-09-12 15:55:04]   page 8/8: 9 records (cum 289) 
+[2026-09-12 15:55:06] 2024-02-01..2024-02-29: 1026 hits, 26 pages (0 done) — collecting 
+[2026-09-12 15:55:09] TJDFT 2024-02-01..2024-02-29: 1026 hits, 26 pages (max Inf) 
+[2026-09-12 15:55:12]   page 1/26: 40 records (cum 40) 
+[2026-09-12 15:55:16]   page 2/26: 40 records (cum 80) 
+[2026-09-12 15:55:19]   page 3/26: 40 records (cum 120) 
+[2026-09-12 15:55:23]   page 4/26: 40 records (cum 160) 
+[2026-09-12 15:55:26]   page 5/26: 40 records (cum 200) 
+[2026-09-12 15:55:28]   page 6/26: 40 records (cum 240) 
+[2026-09-12 15:55:31]   page 7/26: 40 records (cum 280) 
+[2026-09-12 15:55:34]   page 8/26: 40 records (cum 320) 
+[2026-09-12 15:55:38]   page 9/26: 40 records (cum 360) 
+[2026-09-12 15:55:42]   page 10/26: 40 records (cum 400) 
+[2026-09-12 15:55:46]   page 11/26: 40 records (cum 440) 
+[2026-09-12 15:55:49]   page 12/26: 40 records (cum 480) 
+[2026-09-12 15:55:53]   page 13/26: 40 records (cum 520) 
+[2026-09-12 15:55:56]   page 14/26: 40 records (cum 560) 
+[2026-09-12 15:55:59]   page 15/26: 40 records (cum 600) 
+[2026-09-12 15:56:02]   page 16/26: 40 records (cum 640) 
+[2026-09-12 15:56:07]   page 17/26: 40 records (cum 680) 
+[2026-09-12 15:56:10]   page 18/26: 40 records (cum 720) 
+[2026-09-12 15:56:12]   page 19/26: 40 records (cum 760) 
+[2026-09-12 15:56:15]   page 20/26: 40 records (cum 800) 
+[2026-09-12 15:56:18]   page 21/26: 40 records (cum 840) 
+[2026-09-12 15:56:20]   page 22/26: 40 records (cum 880) 
+[2026-09-12 15:56:23]   page 23/26: 40 records (cum 920) 
+[2026-09-12 15:56:25]   page 24/26: 40 records (cum 960) 
+[2026-09-12 15:56:28]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 15:56:32]   page 26/26: 26 records (cum 1026) 
+[2026-09-12 15:56:34] 2024-03-01..2024-03-31: 820 hits, 21/21 pages already collected — skip 
+[2026-09-12 15:56:35] 2024-04-01..2024-04-30: 877 hits, 22 pages (0 done) — collecting 
+[2026-09-12 15:56:38] TJDFT 2024-04-01..2024-04-30: 877 hits, 22 pages (max Inf) 
+[2026-09-12 15:56:38]   page 1/22: 40 records (cum 40) 
+[2026-09-12 15:56:41]   page 2/22: 40 records (cum 80) 
+[2026-09-12 15:56:45]   page 3/22: 40 records (cum 120) 
+[2026-09-12 15:56:49]   page 4/22: 40 records (cum 160) 
+[2026-09-12 15:56:52]   page 5/22: 40 records (cum 200) 
+[2026-09-12 15:56:56]   page 6/22: 40 records (cum 240) 
+[2026-09-12 15:56:59]   page 7/22: 40 records (cum 280) 
+[2026-09-12 15:57:05]   page 8/22: 40 records (cum 320) 
+[2026-09-12 15:57:08]   page 9/22: 40 records (cum 360) 
+[2026-09-12 15:57:12]   page 10/22: 40 records (cum 400) 
+[2026-09-12 15:57:15]   page 11/22: 40 records (cum 440) 
+[2026-09-12 15:57:18]   page 12/22: 40 records (cum 480) 
+[2026-09-12 15:57:21]   page 13/22: 40 records (cum 520) 
+[2026-09-12 15:57:25]   page 14/22: 40 records (cum 560) 
+[2026-09-12 15:57:28]   page 15/22: 40 records (cum 600) 
+[2026-09-12 15:57:32]   page 16/22: 40 records (cum 640) 
+[2026-09-12 15:57:35]   page 17/22: 40 records (cum 680) 
+[2026-09-12 15:57:38]   page 18/22: 40 records (cum 720) 
+[2026-09-12 15:57:41]   page 19/22: 40 records (cum 760) 
+[2026-09-12 15:57:44]   page 20/22: 40 records (cum 800) 
+[2026-09-12 15:57:47]   page 21/22: 40 records (cum 840) 
+[2026-09-12 15:57:50]   page 22/22: 37 records (cum 877) 
+[2026-09-12 15:57:53] 2024-05-01..2024-05-31: 1099 hits, 28 pages (0 done) — collecting 
+[2026-09-12 15:57:55] TJDFT 2024-05-01..2024-05-31: 1099 hits, 28 pages (max Inf) 
+[2026-09-12 15:57:55]   page 1/28: 40 records (cum 40) 
+[2026-09-12 15:58:01]   page 2/28: 40 records (cum 80) 
+[2026-09-12 15:58:04]   page 3/28: 40 records (cum 120) 
+[2026-09-12 15:58:07]   page 4/28: 40 records (cum 160) 
+[2026-09-12 15:58:10]   page 5/28: 40 records (cum 200) 
+[2026-09-12 15:58:13]   page 6/28: 40 records (cum 240) 
+[2026-09-12 15:58:17]   page 7/28: 40 records (cum 280) 
+[2026-09-12 15:58:20]   page 8/28: 40 records (cum 320) 
+[2026-09-12 15:58:23]   page 9/28: 40 records (cum 360) 
+[2026-09-12 15:58:27]   page 10/28: 40 records (cum 400) 
+[2026-09-12 15:58:30]   page 11/28: 40 records (cum 440) 
+[2026-09-12 15:58:33]   page 12/28: 40 records (cum 480) 
+[2026-09-12 15:58:36]   page 13/28: 40 records (cum 520) 
+[2026-09-12 15:58:39]   page 14/28: 40 records (cum 560) 
+[2026-09-12 15:58:42]   page 15/28: 40 records (cum 600) 
+[2026-09-12 15:58:45]   page 16/28: 40 records (cum 640) 
+[2026-09-12 15:58:49]   page 17/28: 40 records (cum 680) 
+[2026-09-12 15:58:52]   page 18/28: 40 records (cum 720) 
+[2026-09-12 15:58:55]   page 19/28: 40 records (cum 760) 
+[2026-09-12 15:59:00]   page 20/28: 40 records (cum 800) 
+[2026-09-12 15:59:04]   page 21/28: 40 records (cum 840) 
+[2026-09-12 15:59:07]   page 22/28: 40 records (cum 880) 
+[2026-09-12 15:59:11]   page 23/28: 40 records (cum 920) 
+[2026-09-12 15:59:14]   page 24/28: 40 records (cum 960) 
+[2026-09-12 15:59:16]   page 25/28: 40 records (cum 1000) 
+[2026-09-12 15:59:19]   page 26/28: 40 records (cum 1040) 
+[2026-09-12 15:59:22]   page 27/28: 40 records (cum 1080) 
+[2026-09-12 15:59:25]   page 28/28: 19 records (cum 1099) 
+[2026-09-12 15:59:27] 2024-06-01..2024-06-30: 732 hits, 19 pages (0 done) — collecting 
+[2026-09-12 15:59:29] TJDFT 2024-06-01..2024-06-30: 732 hits, 19 pages (max Inf) 
+[2026-09-12 15:59:30]   page 1/19: 40 records (cum 40) 
+[2026-09-12 15:59:33]   page 2/19: 40 records (cum 80) 
+[2026-09-12 15:59:36]   page 3/19: 40 records (cum 120) 
+[2026-09-12 15:59:39]   page 4/19: 40 records (cum 160) 
+[2026-09-12 15:59:43]   page 5/19: 40 records (cum 200) 
+[2026-09-12 15:59:47]   page 6/19: 40 records (cum 240) 
+[2026-09-12 15:59:50]   page 7/19: 40 records (cum 280) 
+[2026-09-12 15:59:55]   page 8/19: 40 records (cum 320) 
+[2026-09-12 15:59:58]   page 9/19: 40 records (cum 360) 
+[2026-09-12 16:00:00]   page 10/19: 40 records (cum 400) 
+[2026-09-12 16:00:03]   page 11/19: 40 records (cum 440) 
+[2026-09-12 16:00:06]   page 12/19: 40 records (cum 480) 
+[2026-09-12 16:00:09]   page 13/19: 40 records (cum 520) 
+[2026-09-12 16:00:12]   page 14/19: 40 records (cum 560) 
+[2026-09-12 16:00:16]   page 15/19: 40 records (cum 600) 
+[2026-09-12 16:00:20]   page 16/19: 40 records (cum 640) 
+[2026-09-12 16:00:23]   page 17/19: 40 records (cum 680) 
+[2026-09-12 16:00:26]   page 18/19: 40 records (cum 720) 
+[2026-09-12 16:00:28]   page 19/19: 12 records (cum 732) 
+[2026-09-12 16:00:30] 2024-07-01..2024-07-31: 714 hits, 18 pages (0 done) — collecting 
+[2026-09-12 16:00:33] TJDFT 2024-07-01..2024-07-31: 714 hits, 18 pages (max Inf) 
+[2026-09-12 16:00:33]   page 1/18: 40 records (cum 40) 
+[2026-09-12 16:00:37]   page 2/18: 40 records (cum 80) 
+[2026-09-12 16:00:40]   page 3/18: 40 records (cum 120) 
+[2026-09-12 16:00:44]   page 4/18: 40 records (cum 160) 
+[2026-09-12 16:00:48]   page 5/18: 40 records (cum 200) 
+[2026-09-12 16:00:52]   page 6/18: 40 records (cum 240) 
+[2026-09-12 16:00:55]   page 7/18: 40 records (cum 280) 
+[2026-09-12 16:00:59]   page 8/18: 40 records (cum 320) 
+[2026-09-12 16:01:01]   page 9/18: 40 records (cum 360) 
+[2026-09-12 16:01:04]   page 10/18: 40 records (cum 400) 
+[2026-09-12 16:01:07]   page 11/18: 40 records (cum 440) 
+[2026-09-12 16:01:12]   page 12/18: 40 records (cum 480) 
+[2026-09-12 16:01:15]   page 13/18: 40 records (cum 520) 
+[2026-09-12 16:01:18]   page 14/18: 40 records (cum 560) 
+[2026-09-12 16:01:22]   page 15/18: 40 records (cum 600) 
+[2026-09-12 16:01:26]   page 16/18: 40 records (cum 640) 
+[2026-09-12 16:01:28]   page 17/18: 40 records (cum 680) 
+[2026-09-12 16:01:32]   page 18/18: 34 records (cum 714) 
+[2026-09-12 16:01:34] 2024-08-01..2024-08-31: 955 hits, 24 pages (0 done) — collecting 
+[2026-09-12 16:01:37] TJDFT 2024-08-01..2024-08-31: 955 hits, 24 pages (max Inf) 
+[2026-09-12 16:01:37]   page 1/24: 40 records (cum 40) 
+[2026-09-12 16:01:40]   page 2/24: 40 records (cum 80) 
+[2026-09-12 16:01:42]   page 3/24: 40 records (cum 120) 
+[2026-09-12 16:01:47]   page 4/24: 40 records (cum 160) 
+[2026-09-12 16:01:51]   page 5/24: 40 records (cum 200) 
+[2026-09-12 16:01:54]   page 6/24: 40 records (cum 240) 
+[2026-09-12 16:01:57]   page 7/24: 40 records (cum 280) 
+[2026-09-12 16:02:00]   page 8/24: 40 records (cum 320) 
+[2026-09-12 16:02:04]   page 9/24: 40 records (cum 360) 
+[2026-09-12 16:02:07]   page 10/24: 40 records (cum 400) 
+[2026-09-12 16:02:10]   page 11/24: 40 records (cum 440) 
+[2026-09-12 16:02:13]   page 12/24: 40 records (cum 480) 
+[2026-09-12 16:02:17]   page 13/24: 40 records (cum 520) 
+[2026-09-12 16:02:20]   page 14/24: 40 records (cum 560) 
+[2026-09-12 16:02:23]   page 15/24: 40 records (cum 600) 
+[2026-09-12 16:02:27]   page 16/24: 40 records (cum 640) 
+[2026-09-12 16:02:30]   page 17/24: 40 records (cum 680) 
+[2026-09-12 16:02:33]   page 18/24: 40 records (cum 720) 
+[2026-09-12 16:02:35]   page 19/24: 40 records (cum 760) 
+[2026-09-12 16:02:38]   page 20/24: 40 records (cum 800) 
+[2026-09-12 16:02:41]   page 21/24: 40 records (cum 840) 
+[2026-09-12 16:02:44]   page 22/24: 40 records (cum 880) 
+[2026-09-12 16:02:49]   page 23/24: 40 records (cum 920) 
+[2026-09-12 16:02:52]   page 24/24: 35 records (cum 955) 
+[2026-09-12 16:02:54] 2024-09-01..2024-09-30: 867 hits, 22 pages (0 done) — collecting 
+[2026-09-12 16:02:56] TJDFT 2024-09-01..2024-09-30: 867 hits, 22 pages (max Inf) 
+[2026-09-12 16:02:56]   page 1/22: 40 records (cum 40) 
+[2026-09-12 16:02:59]   page 2/22: 40 records (cum 80) 
+[2026-09-12 16:03:01]   page 3/22: 40 records (cum 120) 
+[2026-09-12 16:03:04]   page 4/22: 40 records (cum 160) 
+[2026-09-12 16:03:07]   page 5/22: 40 records (cum 200) 
+[2026-09-12 16:03:10]   page 6/22: 40 records (cum 240) 
+[2026-09-12 16:03:13]   page 7/22: 40 records (cum 280) 
+[2026-09-12 16:03:17]   page 8/22: 40 records (cum 320) 
+[2026-09-12 16:03:20]   page 9/22: 40 records (cum 360) 
+[2026-09-12 16:03:23]   page 10/22: 40 records (cum 400) 
+[2026-09-12 16:03:26]   page 11/22: 40 records (cum 440) 
+[2026-09-12 16:03:29]   page 12/22: 40 records (cum 480) 
+[2026-09-12 16:03:32]   page 13/22: 40 records (cum 520) 
+[2026-09-12 16:03:34]   page 14/22: 40 records (cum 560) 
+[2026-09-12 16:03:37]   page 15/22: 40 records (cum 600) 
+[2026-09-12 16:03:41]   page 16/22: 40 records (cum 640) 
+[2026-09-12 16:03:45]   page 17/22: 40 records (cum 680) 
+[2026-09-12 16:03:50]   page 18/22: 40 records (cum 720) 
+[2026-09-12 16:03:52]   page 19/22: 40 records (cum 760) 
+[2026-09-12 16:03:56]   page 20/22: 40 records (cum 800) 
+[2026-09-12 16:03:58]   page 21/22: 40 records (cum 840) 
+[2026-09-12 16:04:01]   page 22/22: 27 records (cum 867) 
+[2026-09-12 16:04:03] 2024-10-01..2024-10-31: 990 hits, 25 pages (0 done) — collecting 
+[2026-09-12 16:04:05] TJDFT 2024-10-01..2024-10-31: 990 hits, 25 pages (max Inf) 
+[2026-09-12 16:04:05]   page 1/25: 40 records (cum 40) 
+[2026-09-12 16:04:08]   page 2/25: 40 records (cum 80) 
+[2026-09-12 16:04:11]   page 3/25: 40 records (cum 120) 
+[2026-09-12 16:04:14]   page 4/25: 40 records (cum 160) 
+[2026-09-12 16:04:17]   page 5/25: 40 records (cum 200) 
+[2026-09-12 16:04:20]   page 6/25: 40 records (cum 240) 
+[2026-09-12 16:04:24]   page 7/25: 40 records (cum 280) 
+[2026-09-12 16:04:28]   page 8/25: 40 records (cum 320) 
+[2026-09-12 16:04:30]   page 9/25: 40 records (cum 360) 
+[2026-09-12 16:04:33]   page 10/25: 40 records (cum 400) 
+[2026-09-12 16:04:35]   page 11/25: 40 records (cum 440) 
+[2026-09-12 16:04:38]   page 12/25: 40 records (cum 480) 
+[2026-09-12 16:04:41]   page 13/25: 40 records (cum 520) 
+[2026-09-12 16:04:44]   page 14/25: 40 records (cum 560) 
+[2026-09-12 16:04:49]   page 15/25: 40 records (cum 600) 
+[2026-09-12 16:04:53]   page 16/25: 40 records (cum 640) 
+[2026-09-12 16:04:57]   page 17/25: 40 records (cum 680) 
+[2026-09-12 16:05:00]   page 18/25: 40 records (cum 720) 
+[2026-09-12 16:05:03]   page 19/25: 40 records (cum 760) 
+[2026-09-12 16:05:05]   page 20/25: 40 records (cum 800) 
+[2026-09-12 16:05:09]   page 21/25: 40 records (cum 840) 
+[2026-09-12 16:05:12]   page 22/25: 40 records (cum 880) 
+[2026-09-12 16:05:15]   page 23/25: 40 records (cum 920) 
+[2026-09-12 16:05:18]   page 24/25: 40 records (cum 960) 
+[2026-09-12 16:05:21]   page 25/25: 30 records (cum 990) 
+[2026-09-12 16:05:23] 2024-11-01..2024-11-30: 887 hits, 23 pages (0 done) — collecting 
+[2026-09-12 16:05:25] TJDFT 2024-11-01..2024-11-30: 887 hits, 23 pages (max Inf) 
+[2026-09-12 16:05:26]   page 1/23: 40 records (cum 40) 
+[2026-09-12 16:05:29]   page 2/23: 40 records (cum 80) 
+[2026-09-12 16:05:32]   page 3/23: 40 records (cum 120) 
+[2026-09-12 16:05:35]   page 4/23: 40 records (cum 160) 
+[2026-09-12 16:05:38]   page 5/23: 40 records (cum 200) 
+[2026-09-12 16:05:42]   page 6/23: 40 records (cum 240) 
+[2026-09-12 16:05:47]   page 7/23: 40 records (cum 280) 
+[2026-09-12 16:05:49]   page 8/23: 40 records (cum 320) 
+[2026-09-12 16:05:52]   page 9/23: 40 records (cum 360) 
+[2026-09-12 16:05:56]   page 10/23: 40 records (cum 400) 
+[2026-09-12 16:05:59]   page 11/23: 40 records (cum 440) 
+[2026-09-12 16:06:02]   page 12/23: 40 records (cum 480) 
+[2026-09-12 16:06:05]   page 13/23: 40 records (cum 520) 
+[2026-09-12 16:06:09]   page 14/23: 40 records (cum 560) 
+[2026-09-12 16:06:12]   page 15/23: 40 records (cum 600) 
+[2026-09-12 16:06:16]   page 16/23: 40 records (cum 640) 
+[2026-09-12 16:06:20]   page 17/23: 40 records (cum 680) 
+[2026-09-12 16:06:23]   page 18/23: 40 records (cum 720) 
+[2026-09-12 16:06:26]   page 19/23: 40 records (cum 760) 
+[2026-09-12 16:06:29]   page 20/23: 40 records (cum 800) 
+[2026-09-12 16:06:32]   page 21/23: 40 records (cum 840) 
+[2026-09-12 16:06:35]   page 22/23: 40 records (cum 880) 
+[2026-09-12 16:06:37]   page 23/23: 7 records (cum 887) 
+[2026-09-12 16:06:39] 2024-12-01..2024-12-31: 441 hits, 12 pages (0 done) — collecting 
+[2026-09-12 16:06:42] TJDFT 2024-12-01..2024-12-31: 441 hits, 12 pages (max Inf) 
+[2026-09-12 16:06:42]   page 1/12: 40 records (cum 40) 
+[2026-09-12 16:06:45]   page 2/12: 40 records (cum 80) 
+[2026-09-12 16:06:51]   page 3/12: 40 records (cum 120) 
+[2026-09-12 16:06:55]   page 4/12: 40 records (cum 160) 
+[2026-09-12 16:06:58]   page 5/12: 40 records (cum 200) 
+[2026-09-12 16:07:01]   page 6/12: 40 records (cum 240) 
+[2026-09-12 16:07:04]   page 7/12: 40 records (cum 280) 
+[2026-09-12 16:07:07]   page 8/12: 40 records (cum 320) 
+[2026-09-12 16:07:11]   page 9/12: 40 records (cum 360) 
+[2026-09-12 16:07:14]   page 10/12: 40 records (cum 400) 
+[2026-09-12 16:07:17]   page 11/12: 40 records (cum 440) 
+[2026-09-12 16:07:18]   page 12/12: 1 records (cum 441) 
+[2026-09-12 16:07:20] 2025-01-01..2025-01-31: 431 hits, 11 pages (0 done) — collecting 
+[2026-09-12 16:07:23] TJDFT 2025-01-01..2025-01-31: 431 hits, 11 pages (max Inf) 
+[2026-09-12 16:07:23]   page 1/11: 40 records (cum 40) 
+[2026-09-12 16:07:27]   page 2/11: 40 records (cum 80) 
+[2026-09-12 16:07:30]   page 3/11: 40 records (cum 120) 
+[2026-09-12 16:07:34]   page 4/11: 40 records (cum 160) 
+[2026-09-12 16:07:36]   page 5/11: 40 records (cum 200) 
+[2026-09-12 16:07:40]   page 6/11: 40 records (cum 240) 
+[2026-09-12 16:07:44]   page 7/11: 40 records (cum 280) 
+[2026-09-12 16:07:48]   page 8/11: 40 records (cum 320) 
+[2026-09-12 16:07:54]   page 9/11: 40 records (cum 360) 
+[2026-09-12 16:07:56]   page 10/11: 40 records (cum 400) 
+[2026-09-12 16:08:00]   page 11/11: 31 records (cum 431) 
+[2026-09-12 16:08:02] 2025-02-01..2025-02-28: 1105 hits, 28 pages (0 done) — collecting 
+[2026-09-12 16:08:04] TJDFT 2025-02-01..2025-02-28: 1105 hits, 28 pages (max Inf) 
+[2026-09-12 16:08:05]   page 1/28: 40 records (cum 40) 
+[2026-09-12 16:08:09]   page 2/28: 40 records (cum 80) 
+[2026-09-12 16:08:12]   page 3/28: 40 records (cum 120) 
+[2026-09-12 16:08:15]   page 4/28: 40 records (cum 160) 
+[2026-09-12 16:08:19]   page 5/28: 40 records (cum 200) 
+[2026-09-12 16:08:22]   page 6/28: 40 records (cum 240) 
+[2026-09-12 16:08:25]   page 7/28: 40 records (cum 280) 
+[2026-09-12 16:08:29]   page 8/28: 40 records (cum 320) 
+[2026-09-12 16:08:32]   page 9/28: 40 records (cum 360) 
+[2026-09-12 16:09:35]   page 10/28: 40 records (cum 400) 
+[2026-09-12 16:09:39]   page 11/28: 40 records (cum 440) 
+[2026-09-12 16:09:43]   page 12/28: 40 records (cum 480) 
+[2026-09-12 16:09:46]   page 13/28: 40 records (cum 520) 
+[2026-09-12 16:09:49]   page 14/28: 40 records (cum 560) 
+[2026-09-12 16:09:54]   page 15/28: 40 records (cum 600) 
+[2026-09-12 16:09:57]   page 16/28: 40 records (cum 640) 
+[2026-09-12 16:10:00]   page 17/28: 40 records (cum 680) 
+[2026-09-12 16:10:02]   page 18/28: 40 records (cum 720) 
+[2026-09-12 16:10:05]   page 19/28: 40 records (cum 760) 
+[2026-09-12 16:10:08]   page 20/28: 40 records (cum 800) 
+[2026-09-12 16:10:11]   page 21/28: 40 records (cum 840) 
+[2026-09-12 16:10:15]   page 22/28: 40 records (cum 880) 
+[2026-09-12 16:10:18]   page 23/28: 40 records (cum 920) 
+[2026-09-12 16:10:20]   page 24/28: 40 records (cum 960) 
+[2026-09-12 16:10:25]   page 25/28: 40 records (cum 1000) 
+[2026-09-12 16:10:27]   page 26/28: 40 records (cum 1040) 
+[2026-09-12 16:10:29]   page 27/28: 40 records (cum 1080) 
+[2026-09-12 16:10:32]   page 28/28: 25 records (cum 1105) 
+[2026-09-12 16:10:34] 2025-03-01..2025-03-31: 939 hits, 24 pages (0 done) — collecting 
+[2026-09-12 16:10:37] TJDFT 2025-03-01..2025-03-31: 939 hits, 24 pages (max Inf) 
+[2026-09-12 16:10:37]   page 1/24: 40 records (cum 40) 
+[2026-09-12 16:10:40]   page 2/24: 40 records (cum 80) 
+[2026-09-12 16:10:43]   page 3/24: 40 records (cum 120) 
+[2026-09-12 16:10:46]   page 4/24: 40 records (cum 160) 
+[2026-09-12 16:10:49]   page 5/24: 40 records (cum 200) 
+[2026-09-12 16:10:55]   page 6/24: 40 records (cum 240) 
+[2026-09-12 16:10:58]   page 7/24: 40 records (cum 280) 
+[2026-09-12 16:11:01]   page 8/24: 40 records (cum 320) 
+[2026-09-12 16:11:04]   page 9/24: 40 records (cum 360) 
+[2026-09-12 16:11:06]   page 10/24: 40 records (cum 400) 
+[2026-09-12 16:11:10]   page 11/24: 40 records (cum 440) 
+[2026-09-12 16:11:13]   page 12/24: 40 records (cum 480) 
+[2026-09-12 16:11:17]   page 13/24: 40 records (cum 520) 
+[2026-09-12 16:11:20]   page 14/24: 40 records (cum 560) 
+[2026-09-12 16:11:23]   page 15/24: 40 records (cum 600) 
+[2026-09-12 16:11:26]   page 16/24: 40 records (cum 640) 
+[2026-09-12 16:11:29]   page 17/24: 40 records (cum 680) 
+[2026-09-12 16:11:32]   page 18/24: 40 records (cum 720) 
+[2026-09-12 16:11:35]   page 19/24: 40 records (cum 760) 
+[2026-09-12 16:11:38]   page 20/24: 40 records (cum 800) 
+[2026-09-12 16:11:41]   page 21/24: 40 records (cum 840) 
+[2026-09-12 16:11:45]   page 22/24: 40 records (cum 880) 
+[2026-09-12 16:11:47]   page 23/24: 40 records (cum 920) 
+[2026-09-12 16:11:50]   page 24/24: 19 records (cum 939) 
+[2026-09-12 16:11:52] 2025-04-01..2025-04-30: 701 hits, 18 pages (0 done) — collecting 
+[2026-09-12 16:11:54] TJDFT 2025-04-01..2025-04-30: 701 hits, 18 pages (max Inf) 
+[2026-09-12 16:11:57]   page 1/18: 40 records (cum 40) 
+[2026-09-12 16:12:00]   page 2/18: 40 records (cum 80) 
+[2026-09-12 16:12:04]   page 3/18: 40 records (cum 120) 
+[2026-09-12 16:12:07]   page 4/18: 40 records (cum 160) 
+[2026-09-12 16:12:11]   page 5/18: 40 records (cum 200) 
+[2026-09-12 16:12:14]   page 6/18: 40 records (cum 240) 
+[2026-09-12 16:12:17]   page 7/18: 40 records (cum 280) 
+[2026-09-12 16:12:21]   page 8/18: 40 records (cum 320) 
+[2026-09-12 16:12:24]   page 9/18: 40 records (cum 360) 
+[2026-09-12 16:12:28]   page 10/18: 40 records (cum 400) 
+[2026-09-12 16:12:30]   page 11/18: 40 records (cum 440) 
+[2026-09-12 16:12:34]   page 12/18: 40 records (cum 480) 
+[2026-09-12 16:12:37]   page 13/18: 40 records (cum 520) 
+[2026-09-12 16:12:41]   page 14/18: 40 records (cum 560) 
+[2026-09-12 16:12:44]   page 15/18: 40 records (cum 600) 
+[2026-09-12 16:12:50]   page 16/18: 40 records (cum 640) 
+[2026-09-12 16:12:53]   page 17/18: 40 records (cum 680) 
+[2026-09-12 16:12:55]   page 18/18: 21 records (cum 701) 
+[2026-09-12 16:12:57] 2025-05-01..2025-05-31: 1020 hits, 26 pages (0 done) — collecting 
+[2026-09-12 16:12:59] TJDFT 2025-05-01..2025-05-31: 1020 hits, 26 pages (max Inf) 
+[2026-09-12 16:13:00]   page 1/26: 40 records (cum 40) 
+[2026-09-12 16:13:02]   page 2/26: 40 records (cum 80) 
+[2026-09-12 16:13:05]   page 3/26: 40 records (cum 120) 
+[2026-09-12 16:13:09]   page 4/26: 40 records (cum 160) 
+[2026-09-12 16:13:13]   page 5/26: 40 records (cum 200) 
+[2026-09-12 16:13:16]   page 6/26: 40 records (cum 240) 
+[2026-09-12 16:13:21]   page 7/26: 40 records (cum 280) 
+[2026-09-12 16:13:25]   page 8/26: 40 records (cum 320) 
+[2026-09-12 16:13:28]   page 9/26: 40 records (cum 360) 
+[2026-09-12 16:13:31]   page 10/26: 40 records (cum 400) 
+[2026-09-12 16:13:34]   page 11/26: 40 records (cum 440) 
+[2026-09-12 16:13:37]   page 12/26: 40 records (cum 480) 
+[2026-09-12 16:13:40]   page 13/26: 40 records (cum 520) 
+[2026-09-12 16:13:46]   page 14/26: 40 records (cum 560) 
+[2026-09-12 16:13:48]   page 15/26: 40 records (cum 600) 
+[2026-09-12 16:13:52]   page 16/26: 40 records (cum 640) 
+[2026-09-12 16:13:55]   page 17/26: 40 records (cum 680) 
+[2026-09-12 16:13:57]   page 18/26: 40 records (cum 720) 
+[2026-09-12 16:14:00]   page 19/26: 40 records (cum 760) 
+[2026-09-12 16:14:03]   page 20/26: 40 records (cum 800) 
+[2026-09-12 16:14:07]   page 21/26: 40 records (cum 840) 
+[2026-09-12 16:14:11]   page 22/26: 40 records (cum 880) 
+[2026-09-12 16:14:14]   page 23/26: 40 records (cum 920) 
+[2026-09-12 16:14:18]   page 24/26: 40 records (cum 960) 
+[2026-09-12 16:14:21]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 16:14:23]   page 26/26: 20 records (cum 1020) 
+[2026-09-12 16:14:25] 2025-06-01..2025-06-30: 935 hits, 24 pages (0 done) — collecting 
+[2026-09-12 16:14:28] TJDFT 2025-06-01..2025-06-30: 935 hits, 24 pages (max Inf) 
+[2026-09-12 16:14:29]   page 1/24: 40 records (cum 40) 
+[2026-09-12 16:14:33]   page 2/24: 40 records (cum 80) 
+[2026-09-12 16:14:37]   page 3/24: 40 records (cum 120) 
+[2026-09-12 16:14:41]   page 4/24: 40 records (cum 160) 
+[2026-09-12 16:14:47]   page 5/24: 40 records (cum 200) 
+[2026-09-12 16:14:49]   page 6/24: 40 records (cum 240) 
+[2026-09-12 16:14:52]   page 7/24: 40 records (cum 280) 
+[2026-09-12 16:14:56]   page 8/24: 40 records (cum 320) 
+[2026-09-12 16:14:59]   page 9/24: 40 records (cum 360) 
+[2026-09-12 16:15:03]   page 10/24: 40 records (cum 400) 
+[2026-09-12 16:15:06]   page 11/24: 40 records (cum 440) 
+[2026-09-12 16:15:09]   page 12/24: 40 records (cum 480) 
+[2026-09-12 16:15:13]   page 13/24: 40 records (cum 520) 
+[2026-09-12 16:15:16]   page 14/24: 40 records (cum 560) 
+[2026-09-12 16:15:20]   page 15/24: 40 records (cum 600) 
+[2026-09-12 16:15:23]   page 16/24: 40 records (cum 640) 
+[2026-09-12 16:15:25]   page 17/24: 40 records (cum 680) 
+[2026-09-12 16:15:29]   page 18/24: 40 records (cum 720) 
+[2026-09-12 16:15:32]   page 19/24: 40 records (cum 760) 
+[2026-09-12 16:15:35]   page 20/24: 40 records (cum 800) 
+[2026-09-12 16:15:39]   page 21/24: 40 records (cum 840) 
+[2026-09-12 16:15:42]   page 22/24: 40 records (cum 880) 
+[2026-09-12 16:15:47]   page 23/24: 40 records (cum 920) 
+[2026-09-12 16:15:50]   page 24/24: 15 records (cum 935) 
+[2026-09-12 16:15:52] 2025-07-01..2025-07-31: 1013 hits, 26 pages (0 done) — collecting 
+[2026-09-12 16:15:54] TJDFT 2025-07-01..2025-07-31: 1013 hits, 26 pages (max Inf) 
+[2026-09-12 16:15:55]   page 1/26: 40 records (cum 40) 
+[2026-09-12 16:15:59]   page 2/26: 40 records (cum 80) 
+[2026-09-12 16:16:02]   page 3/26: 40 records (cum 120) 
+[2026-09-12 16:16:06]   page 4/26: 40 records (cum 160) 
+[2026-09-12 16:16:10]   page 5/26: 40 records (cum 200) 
+[2026-09-12 16:16:13]   page 6/26: 40 records (cum 240) 
+[2026-09-12 16:16:17]   page 7/26: 40 records (cum 280) 
+[2026-09-12 16:16:19]   page 8/26: 40 records (cum 320) 
+[2026-09-12 16:16:22]   page 9/26: 40 records (cum 360) 
+[2026-09-12 16:16:25]   page 10/26: 40 records (cum 400) 
+[2026-09-12 16:16:29]   page 11/26: 40 records (cum 440) 
+[2026-09-12 16:16:32]   page 12/26: 40 records (cum 480) 
+[2026-09-12 16:16:36]   page 13/26: 40 records (cum 520) 
+[2026-09-12 16:16:40]   page 14/26: 40 records (cum 560) 
+[2026-09-12 16:16:46]   page 15/26: 40 records (cum 600) 
+[2026-09-12 16:16:49]   page 16/26: 40 records (cum 640) 
+[2026-09-12 16:16:52]   page 17/26: 40 records (cum 680) 
+[2026-09-12 16:16:56]   page 18/26: 40 records (cum 720) 
+[2026-09-12 16:16:59]   page 19/26: 40 records (cum 760) 
+[2026-09-12 16:17:03]   page 20/26: 40 records (cum 800) 
+[2026-09-12 16:17:07]   page 21/26: 40 records (cum 840) 
+[2026-09-12 16:17:09]   page 22/26: 40 records (cum 880) 
+[2026-09-12 16:17:13]   page 23/26: 40 records (cum 920) 
+[2026-09-12 16:17:17]   page 24/26: 40 records (cum 960) 
+[2026-09-12 16:17:20]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 16:17:22]   page 26/26: 13 records (cum 1013) 
+[2026-09-12 16:17:25] 2025-08-01..2025-08-31: 1330 hits, 34 pages (0 done) — collecting 
+[2026-09-12 16:17:27] TJDFT 2025-08-01..2025-08-31: 1330 hits, 34 pages (max Inf) 
+[2026-09-12 16:17:27]   page 1/34: 40 records (cum 40) 
+[2026-09-12 16:17:31]   page 2/34: 40 records (cum 80) 
+[2026-09-12 16:17:34]   page 3/34: 40 records (cum 120) 
+[2026-09-12 16:17:37]   page 4/34: 40 records (cum 160) 
+[2026-09-12 16:17:40]   page 5/34: 40 records (cum 200) 
+[2026-09-12 16:17:46]   page 6/34: 40 records (cum 240) 
+[2026-09-12 16:17:48]   page 7/34: 40 records (cum 280) 
+[2026-09-12 16:17:51]   page 8/34: 40 records (cum 320) 
+[2026-09-12 16:17:54]   page 9/34: 40 records (cum 360) 
+[2026-09-12 16:17:57]   page 10/34: 40 records (cum 400) 
+[2026-09-12 16:18:01]   page 11/34: 40 records (cum 440) 
+[2026-09-12 16:18:05]   page 12/34: 40 records (cum 480) 
+[2026-09-12 16:18:09]   page 13/34: 40 records (cum 520) 
+[2026-09-12 16:18:12]   page 14/34: 40 records (cum 560) 
+[2026-09-12 16:18:16]   page 15/34: 40 records (cum 600) 
+[2026-09-12 16:18:20]   page 16/34: 40 records (cum 640) 
+[2026-09-12 16:18:23]   page 17/34: 40 records (cum 680) 
+[2026-09-12 16:18:26]   page 18/34: 40 records (cum 720) 
+[2026-09-12 16:18:29]   page 19/34: 40 records (cum 760) 
+[2026-09-12 16:18:32]   page 20/34: 40 records (cum 800) 
+[2026-09-12 16:18:34]   page 21/34: 40 records (cum 840) 
+[2026-09-12 16:18:37]   page 22/34: 40 records (cum 880) 
+[2026-09-12 16:18:42]   page 23/34: 40 records (cum 920) 
+[2026-09-12 16:18:45]   page 24/34: 40 records (cum 960) 
+[2026-09-12 16:18:48]   page 25/34: 40 records (cum 1000) 
+[2026-09-12 16:18:52]   page 26/34: 40 records (cum 1040) 
+[2026-09-12 16:18:55]   page 27/34: 40 records (cum 1080) 
+[2026-09-12 16:18:58]   page 28/34: 40 records (cum 1120) 
+[2026-09-12 16:19:02]   page 29/34: 40 records (cum 1160) 
+[2026-09-12 16:19:05]   page 30/34: 40 records (cum 1200) 
+[2026-09-12 16:19:08]   page 31/34: 40 records (cum 1240) 
+[2026-09-12 16:19:11]   page 32/34: 40 records (cum 1280) 
+[2026-09-12 16:19:13]   page 33/34: 40 records (cum 1320) 
+[2026-09-12 16:19:15]   page 34/34: 10 records (cum 1330) 
+[2026-09-12 16:19:17] 2025-09-01..2025-09-30: 1013 hits, 26 pages (0 done) — collecting 
+[2026-09-12 16:19:20] TJDFT 2025-09-01..2025-09-30: 1013 hits, 26 pages (max Inf) 
+[2026-09-12 16:19:21]   page 1/26: 40 records (cum 40) 
+[2026-09-12 16:19:24]   page 2/26: 40 records (cum 80) 
+[2026-09-12 16:19:28]   page 3/26: 40 records (cum 120) 
+[2026-09-12 16:19:32]   page 4/26: 40 records (cum 160) 
+[2026-09-12 16:19:36]   page 5/26: 40 records (cum 200) 
+[2026-09-12 16:19:42]   page 6/26: 40 records (cum 240) 
+[2026-09-12 16:19:46]   page 7/26: 40 records (cum 280) 
+[2026-09-12 16:19:48]   page 8/26: 40 records (cum 320) 
+[2026-09-12 16:19:51]   page 9/26: 40 records (cum 360) 
+[2026-09-12 16:19:54]   page 10/26: 40 records (cum 400) 
+[2026-09-12 16:19:57]   page 11/26: 40 records (cum 440) 
+[2026-09-12 16:20:02]   page 12/26: 40 records (cum 480) 
+[2026-09-12 16:20:06]   page 13/26: 40 records (cum 520) 
+[2026-09-12 16:20:10]   page 14/26: 40 records (cum 560) 
+[2026-09-12 16:20:15]   page 15/26: 40 records (cum 600) 
+[2026-09-12 16:20:18]   page 16/26: 40 records (cum 640) 
+[2026-09-12 16:20:21]   page 17/26: 40 records (cum 680) 
+[2026-09-12 16:20:24]   page 18/26: 40 records (cum 720) 
+[2026-09-12 16:20:26]   page 19/26: 40 records (cum 760) 
+[2026-09-12 16:20:30]   page 20/26: 40 records (cum 800) 
+[2026-09-12 16:20:37]   page 21/26: 40 records (cum 840) 
+[2026-09-12 16:20:40]   page 22/26: 40 records (cum 880) 
+[2026-09-12 16:20:44]   page 23/26: 40 records (cum 920) 
+[2026-09-12 16:20:48]   page 24/26: 40 records (cum 960) 
+[2026-09-12 16:20:51]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 16:20:54]   page 26/26: 13 records (cum 1013) 
+[2026-09-12 16:20:56] 2025-10-01..2025-10-31: 1251 hits, 32 pages (0 done) — collecting 
+[2026-09-12 16:20:58] TJDFT 2025-10-01..2025-10-31: 1251 hits, 32 pages (max Inf) 
+[2026-09-12 16:20:59]   page 1/32: 40 records (cum 40) 
+[2026-09-12 16:21:02]   page 2/32: 40 records (cum 80) 
+[2026-09-12 16:21:06]   page 3/32: 40 records (cum 120) 
+[2026-09-12 16:21:10]   page 4/32: 40 records (cum 160) 
+[2026-09-12 16:21:14]   page 5/32: 40 records (cum 200) 
+[2026-09-12 16:21:17]   page 6/32: 40 records (cum 240) 
+[2026-09-12 16:21:21]   page 7/32: 40 records (cum 280) 
+[2026-09-12 16:21:24]   page 8/32: 40 records (cum 320) 
+[2026-09-12 16:21:27]   page 9/32: 40 records (cum 360) 
+[2026-09-12 16:21:31]   page 10/32: 40 records (cum 400) 
+[2026-09-12 16:21:33]   page 11/32: 40 records (cum 440) 
+[2026-09-12 16:21:37]   page 12/32: 40 records (cum 480) 
+[2026-09-12 16:21:44]   page 13/32: 40 records (cum 520) 
+[2026-09-12 16:21:48]   page 14/32: 40 records (cum 560) 
+[2026-09-12 16:21:53]   page 15/32: 40 records (cum 600) 
+[2026-09-12 16:21:57]   page 16/32: 40 records (cum 640) 
+[2026-09-12 16:22:01]   page 17/32: 40 records (cum 680) 
+[2026-09-12 16:22:04]   page 18/32: 40 records (cum 720) 
+[2026-09-12 16:22:06]   page 19/32: 40 records (cum 760) 
+[2026-09-12 16:22:09]   page 20/32: 40 records (cum 800) 
+[2026-09-12 16:22:12]   page 21/32: 40 records (cum 840) 
+[2026-09-12 16:22:15]   page 22/32: 40 records (cum 880) 
+[2026-09-12 16:22:18]   page 23/32: 40 records (cum 920) 
+[2026-09-12 16:22:22]   page 24/32: 40 records (cum 960) 
+[2026-09-12 16:22:25]   page 25/32: 40 records (cum 1000) 
+[2026-09-12 16:22:29]   page 26/32: 40 records (cum 1040) 
+[2026-09-12 16:22:32]   page 27/32: 40 records (cum 1080) 
+[2026-09-12 16:22:35]   page 28/32: 40 records (cum 1120) 
+[2026-09-12 16:22:39]   page 29/32: 40 records (cum 1160) 
+[2026-09-12 16:22:45]   page 30/32: 40 records (cum 1200) 
+[2026-09-12 16:22:48]   page 31/32: 40 records (cum 1240) 
+[2026-09-12 16:22:50]   page 32/32: 11 records (cum 1251) 
+[2026-09-12 16:22:53] 2025-11-01..2025-11-30: 1040 hits, 26 pages (0 done) — collecting 
+[2026-09-12 16:22:55] TJDFT 2025-11-01..2025-11-30: 1040 hits, 26 pages (max Inf) 
+[2026-09-12 16:22:56]   page 1/26: 40 records (cum 40) 
+[2026-09-12 16:23:00]   page 2/26: 40 records (cum 80) 
+[2026-09-12 16:23:03]   page 3/26: 40 records (cum 120) 
+[2026-09-12 16:23:07]   page 4/26: 40 records (cum 160) 
+[2026-09-12 16:23:10]   page 5/26: 40 records (cum 200) 
+[2026-09-12 16:23:14]   page 6/26: 40 records (cum 240) 
+[2026-09-12 16:23:17]   page 7/26: 40 records (cum 280) 
+[2026-09-12 16:23:21]   page 8/26: 40 records (cum 320) 
+[2026-09-12 16:23:25]   page 9/26: 40 records (cum 360) 
+[2026-09-12 16:23:28]   page 10/26: 40 records (cum 400) 
+[2026-09-12 16:23:31]   page 11/26: 40 records (cum 440) 
+[2026-09-12 16:23:33]   page 12/26: 40 records (cum 480) 
+[2026-09-12 16:23:37]   page 13/26: 40 records (cum 520) 
+[2026-09-12 16:23:42]   page 14/26: 40 records (cum 560) 
+[2026-09-12 16:23:46]   page 15/26: 40 records (cum 600) 
+[2026-09-12 16:23:50]   page 16/26: 40 records (cum 640) 
+[2026-09-12 16:23:53]   page 17/26: 40 records (cum 680) 
+[2026-09-12 16:23:56]   page 18/26: 40 records (cum 720) 
+[2026-09-12 16:24:00]   page 19/26: 40 records (cum 760) 
+[2026-09-12 16:24:03]   page 20/26: 40 records (cum 800) 
+[2026-09-12 16:24:07]   page 21/26: 40 records (cum 840) 
+[2026-09-12 16:24:10]   page 22/26: 40 records (cum 880) 
+[2026-09-12 16:24:13]   page 23/26: 40 records (cum 920) 
+[2026-09-12 16:24:16]   page 24/26: 40 records (cum 960) 
+[2026-09-12 16:24:19]   page 25/26: 40 records (cum 1000) 
+[2026-09-12 16:24:23]   page 26/26: 40 records (cum 1040) 
+[2026-09-12 16:24:25] 2025-12-01..2025-12-31: 596 hits, 15 pages (0 done) — collecting 
+[2026-09-12 16:24:27] TJDFT 2025-12-01..2025-12-31: 596 hits, 15 pages (max Inf) 
+[2026-09-12 16:24:27]   page 1/15: 40 records (cum 40) 
+[2026-09-12 16:24:31]   page 2/15: 40 records (cum 80) 
+[2026-09-12 16:24:34]   page 3/15: 40 records (cum 120) 
+[2026-09-12 16:24:41]   page 4/15: 40 records (cum 160) 
+[2026-09-12 16:24:44]   page 5/15: 40 records (cum 200) 
+[2026-09-12 16:24:49]   page 6/15: 40 records (cum 240) 
+[2026-09-12 16:24:52]   page 7/15: 40 records (cum 280) 
+[2026-09-12 16:24:55]   page 8/15: 40 records (cum 320) 
+[2026-09-12 16:24:59]   page 9/15: 40 records (cum 360) 
+[2026-09-12 16:25:03]   page 10/15: 40 records (cum 400) 
+[2026-09-12 16:25:06]   page 11/15: 40 records (cum 440) 
+[2026-09-12 16:25:09]   page 12/15: 40 records (cum 480) 
+[2026-09-12 16:25:13]   page 13/15: 40 records (cum 520) 
+[2026-09-12 16:25:16]   page 14/15: 40 records (cum 560) 
+[2026-09-12 16:25:20]   page 15/15: 36 records (cum 596) 
+[2026-09-12 16:25:23] acordaos in DB: 78333 (full text 77529), 2015-01-21..2025-12-18 
+[2026-09-12 16:25:23] done 
+[2026-09-12 16:26:08] study window 2015-01-01..2025-12-31: 132 monthly windows 
+[2026-09-12 16:26:08] 2015-01-01..2015-01-31: 291 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:26:09] 2015-02-01..2015-02-28: 428 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:26:10] 2015-03-01..2015-03-31: 379 hits, 10/10 pages already collected — skip 
+[2026-09-12 16:26:12] 2015-04-01..2015-04-30: 510 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:26:13] 2015-05-01..2015-05-31: 456 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:26:14] 2015-06-01..2015-06-30: 552 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:26:15] 2015-07-01..2015-07-31: 542 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:26:16] 2015-08-01..2015-08-31: 399 hits, 10/10 pages already collected — skip 
+[2026-09-12 16:26:17] 2015-09-01..2015-09-30: 650 hits, 17/17 pages already collected — skip 
+[2026-09-12 16:26:18] 2015-10-01..2015-10-31: 390 hits, 10/10 pages already collected — skip 
+[2026-09-12 16:26:20] 2015-11-01..2015-11-30: 470 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:26:21] 2015-12-01..2015-12-31: 435 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:26:22] 2016-01-01..2016-01-31: 156 hits, 4/4 pages already collected — skip 
+[2026-09-12 16:26:23] 2016-02-01..2016-02-29: 602 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:26:24] 2016-03-01..2016-03-31: 698 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:26:25] 2016-04-01..2016-04-30: 526 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:26:27] 2016-05-01..2016-05-31: 517 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:26:28] 2016-06-01..2016-06-30: 589 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:26:29] 2016-07-01..2016-07-31: 487 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:26:30] 2016-08-01..2016-08-31: 579 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:26:31] 2016-09-01..2016-09-30: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:26:32] 2016-10-01..2016-10-31: 628 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:26:34] 2016-11-01..2016-11-30: 611 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:26:35] 2016-12-01..2016-12-31: 280 hits, 7/7 pages already collected — skip 
+[2026-09-12 16:26:36] 2017-01-01..2017-01-31: 61 hits, 2/2 pages already collected — skip 
+[2026-09-12 16:27:37] 2017-02-01..2017-02-28: 749 hits, 19/19 pages already collected — skip 
+[2026-09-12 16:27:39] 2017-03-01..2017-03-31: 600 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:27:40] 2017-04-01..2017-04-30: 482 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:27:41] 2017-05-01..2017-05-31: 674 hits, 17/17 pages already collected — skip 
+[2026-09-12 16:27:42] 2017-06-01..2017-06-30: 604 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:27:43] 2017-07-01..2017-07-31: 468 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:27:44] 2017-08-01..2017-08-31: 685 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:27:45] 2017-09-01..2017-09-30: 503 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:27:47] 2017-10-01..2017-10-31: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:27:48] 2017-11-01..2017-11-30: 604 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:27:49] 2017-12-01..2017-12-31: 375 hits, 10/10 pages already collected — skip 
+[2026-09-12 16:27:50] 2018-01-01..2018-01-31: 291 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:27:51] 2018-02-01..2018-02-28: 622 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:27:52] 2018-03-01..2018-03-31: 535 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:27:54] 2018-04-01..2018-04-30: 558 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:27:55] 2018-05-01..2018-05-31: 707 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:27:56] 2018-06-01..2018-06-30: 608 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:27:57] 2018-07-01..2018-07-31: 537 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:27:58] 2018-08-01..2018-08-31: 839 hits, 21/21 pages already collected — skip 
+[2026-09-12 16:27:59] 2018-09-01..2018-09-30: 561 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:01] 2018-10-01..2018-10-31: 597 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:02] 2018-11-01..2018-11-30: 580 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:03] 2018-12-01..2018-12-31: 296 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:28:04] 2019-01-01..2019-01-31: 268 hits, 7/7 pages already collected — skip 
+[2026-09-12 16:28:05] 2019-02-01..2019-02-28: 689 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:28:06] 2019-03-01..2019-03-31: 416 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:28:08] 2019-04-01..2019-04-30: 513 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:28:09] 2019-05-01..2019-05-31: 661 hits, 17/17 pages already collected — skip 
+[2026-09-12 16:28:10] 2019-06-01..2019-06-30: 579 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:11] 2019-07-01..2019-07-31: 541 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:28:12] 2019-08-01..2019-08-31: 613 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:28:13] 2019-09-01..2019-09-30: 551 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:28:15] 2019-10-01..2019-10-31: 603 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:28:16] 2019-11-01..2019-11-30: 518 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:28:17] 2019-12-01..2019-12-31: 409 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:28:18] 2020-01-01..2020-01-31: 188 hits, 5/5 pages already collected — skip 
+[2026-09-12 16:28:19] 2020-02-01..2020-02-29: 450 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:28:21] 2020-03-01..2020-03-31: 489 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:28:22] 2020-04-01..2020-04-30: 285 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:28:23] 2020-05-01..2020-05-31: 459 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:28:24] 2020-06-01..2020-06-30: 387 hits, 10/10 pages already collected — skip 
+[2026-09-12 16:28:25] 2020-07-01..2020-07-31: 649 hits, 17/17 pages already collected — skip 
+[2026-09-12 16:28:27] 2020-08-01..2020-08-31: 698 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:28:28] 2020-09-01..2020-09-30: 695 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:28:29] 2020-10-01..2020-10-31: 593 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:30] 2020-11-01..2020-11-30: 570 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:31] 2020-12-01..2020-12-31: 432 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:28:32] 2021-01-01..2021-01-31: 255 hits, 7/7 pages already collected — skip 
+[2026-09-12 16:28:34] 2021-02-01..2021-02-28: 507 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:28:35] 2021-03-01..2021-03-31: 628 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:28:36] 2021-04-01..2021-04-30: 508 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:28:37] 2021-05-01..2021-05-31: 583 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:28:38] 2021-06-01..2021-06-30: 632 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:29:40] 2021-07-01..2021-07-31: 608 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:29:41] 2021-08-01..2021-08-31: 605 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:29:42] 2021-09-01..2021-09-30: 609 hits, 16/16 pages already collected — skip 
+[2026-09-12 16:29:43] 2021-10-01..2021-10-31: 465 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:29:45] 2021-11-01..2021-11-30: 525 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:29:46] 2021-12-01..2021-12-31: 344 hits, 9/9 pages already collected — skip 
+[2026-09-12 16:29:47] 2022-01-01..2022-01-31: 89 hits, 3/3 pages already collected — skip 
+[2026-09-12 16:29:48] 2022-02-01..2022-02-28: 692 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:29:49] 2022-03-01..2022-03-31: 697 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:29:50] 2022-04-01..2022-04-30: 515 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:29:51] 2022-05-01..2022-05-31: 597 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:29:53] 2022-06-01..2022-06-30: 692 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:29:54] 2022-07-01..2022-07-31: 558 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:29:55] 2022-08-01..2022-08-31: 573 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:29:56] 2022-09-01..2022-09-30: 503 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:29:57] 2022-10-01..2022-10-31: 481 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:29:59] 2022-11-01..2022-11-30: 481 hits, 13/13 pages already collected — skip 
+[2026-09-12 16:30:00] 2022-12-01..2022-12-31: 312 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:30:01] 2023-01-01..2023-01-31: 186 hits, 5/5 pages already collected — skip 
+[2026-09-12 16:30:02] 2023-02-01..2023-02-28: 532 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:30:03] 2023-03-01..2023-03-31: 779 hits, 20/20 pages already collected — skip 
+[2026-09-12 16:30:04] 2023-04-01..2023-04-30: 471 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:30:06] 2023-05-01..2023-05-31: 695 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:30:07] 2023-06-01..2023-06-30: 721 hits, 19/19 pages already collected — skip 
+[2026-09-12 16:30:08] 2023-07-01..2023-07-31: 653 hits, 17 pages (12 done) — collecting 
+[2026-09-12 16:30:10] TJDFT 2023-07-01..2023-07-31: 653 hits, 17 pages (max Inf) 
+[2026-09-12 16:30:11]   page 1/17: 40 records (cum 40) 
+[2026-09-12 16:30:14]   page 2/17: 40 records (cum 80) 
+[2026-09-12 16:30:17]   page 3/17: 40 records (cum 120) 
+[2026-09-12 16:30:20]   page 4/17: 40 records (cum 160) 
+[2026-09-12 16:30:23]   page 5/17: 40 records (cum 200) 
+[2026-09-12 16:30:25]   page 6/17: 40 records (cum 240) 
+[2026-09-12 16:30:28]   page 7/17: 40 records (cum 280) 
+[2026-09-12 16:30:30]   page 8/17: 40 records (cum 320) 
+[2026-09-12 16:30:33]   page 9/17: 40 records (cum 360) 
+[2026-09-12 16:30:36]   page 10/17: 40 records (cum 400) 
+[2026-09-12 16:30:39]   page 11/17: 40 records (cum 440) 
+[2026-09-12 16:30:42]   page 12/17: 40 records (cum 480) 
+[2026-09-12 16:30:46]   page 13/17: 40 records (cum 520) 
+[2026-09-12 16:30:49]   page 14/17: 40 records (cum 560) 
+[2026-09-12 16:30:52]   page 15/17: 40 records (cum 600) 
+[2026-09-12 16:30:56]   page 16/17: 40 records (cum 640) 
+[2026-09-12 16:30:58]   page 17/17: 13 records (cum 653) 
+[2026-09-12 16:31:00] 2023-08-01..2023-08-31: 835 hits, 21/21 pages already collected — skip 
+[2026-09-12 16:31:01] 2023-09-01..2023-09-30: 728 hits, 19/19 pages already collected — skip 
+[2026-09-12 16:31:03] 2023-10-01..2023-10-31: 829 hits, 21/21 pages already collected — skip 
+[2026-09-12 16:31:04] 2023-11-01..2023-11-30: 1002 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:05] 2023-12-01..2023-12-31: 548 hits, 14/14 pages already collected — skip 
+[2026-09-12 16:31:06] 2024-01-01..2024-01-31: 289 hits, 8/8 pages already collected — skip 
+[2026-09-12 16:31:07] 2024-02-01..2024-02-29: 1026 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:08] 2024-03-01..2024-03-31: 820 hits, 21/21 pages already collected — skip 
+[2026-09-12 16:31:10] 2024-04-01..2024-04-30: 877 hits, 22/22 pages already collected — skip 
+[2026-09-12 16:31:11] 2024-05-01..2024-05-31: 1099 hits, 28/28 pages already collected — skip 
+[2026-09-12 16:31:12] 2024-06-01..2024-06-30: 732 hits, 19/19 pages already collected — skip 
+[2026-09-12 16:31:13] 2024-07-01..2024-07-31: 714 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:31:14] 2024-08-01..2024-08-31: 955 hits, 24/24 pages already collected — skip 
+[2026-09-12 16:31:15] 2024-09-01..2024-09-30: 867 hits, 22/22 pages already collected — skip 
+[2026-09-12 16:31:17] 2024-10-01..2024-10-31: 990 hits, 25/25 pages already collected — skip 
+[2026-09-12 16:31:18] 2024-11-01..2024-11-30: 887 hits, 23/23 pages already collected — skip 
+[2026-09-12 16:31:19] 2024-12-01..2024-12-31: 441 hits, 12/12 pages already collected — skip 
+[2026-09-12 16:31:20] 2025-01-01..2025-01-31: 431 hits, 11/11 pages already collected — skip 
+[2026-09-12 16:31:21] 2025-02-01..2025-02-28: 1105 hits, 28/28 pages already collected — skip 
+[2026-09-12 16:31:23] 2025-03-01..2025-03-31: 939 hits, 24/24 pages already collected — skip 
+[2026-09-12 16:31:24] 2025-04-01..2025-04-30: 701 hits, 18/18 pages already collected — skip 
+[2026-09-12 16:31:25] 2025-05-01..2025-05-31: 1020 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:26] 2025-06-01..2025-06-30: 935 hits, 24/24 pages already collected — skip 
+[2026-09-12 16:31:27] 2025-07-01..2025-07-31: 1013 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:29] 2025-08-01..2025-08-31: 1330 hits, 34/34 pages already collected — skip 
+[2026-09-12 16:31:30] 2025-09-01..2025-09-30: 1013 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:31] 2025-10-01..2025-10-31: 1251 hits, 32/32 pages already collected — skip 
+[2026-09-12 16:31:32] 2025-11-01..2025-11-30: 1040 hits, 26/26 pages already collected — skip 
+[2026-09-12 16:31:33] 2025-12-01..2025-12-31: 596 hits, 15/15 pages already collected — skip 
+[2026-09-12 16:31:35] acordaos in DB: 78506 (full text 77700), 2015-01-21..2025-12-18 
+[2026-09-12 16:31:35] done 
