@@ -30,6 +30,13 @@
 ## `annotations` (anotação humana; D5)
 uuid, annotator, round, award_brl, award_role, first_instance_brl, harm_type, outcome, notes, annotated_at.
 
+### Planilhas de anotação (D5; fora do Git, `data/interim/annotation/planilhas/*.csv`)
+Fonte de verdade da anotação enquanto D5 está em curso (lidas por `scripts/06`); códigos e
+regras em `docs/COMO_ANOTAR.md`. Colunas: item_id, rodada, ficha, decide_dano_moral,
+valor_final, papel_valor, multiplos_valores, valor_origem, tipo_lesao, resultado,
+confianca, minutos, observacoes. A chave `chave_NAO_ABRIR.csv` liga item_id → uuid,
+estrato (civel/recursal), ano, achou-valor, peso amostral e a saída congelada do extrator.
+
 ## `ipca`
 ref_month (1º dia do mês), pct (variação mensal %), index_value (índice acumulado desde a 1ª observação).
 
@@ -37,4 +44,4 @@ ref_month (1º dia do mês), pct (variação mensal %), index_value (índice acu
 collected_at, source, request_url, request_body, page, n_records, raw_file, sha256.
 
 ## Variáveis derivadas (fase 1)
-award_brl (valor final validado), award_real (IPCA mês-base D4), award_sm (múltiplos do salário-mínimo vigente), harm_type (dicionário), outcome (provido/desprovido a partir de `decisao`), tema_event (indicador pós-tema para tipos afetados).
+award_brl (valor final validado), award_real (IPCA mês-base D4: `temporal$price_base`), award_sm (múltiplos do salário-mínimo vigente, se `temporal$report_sm_multiples`; `add_real_values()`), harm_type (dicionário), outcome (provido/desprovido a partir de `decisao`), tema_event (indicador pós-tema para tipos afetados).

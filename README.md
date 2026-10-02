@@ -23,6 +23,22 @@ pre-registration protocol drafted. **No scientific result is reported yet**; the
 pilot numbers are diagnostics of extraction feasibility.
 See [docs/feasibility_report.md](docs/feasibility_report.md) (pt-BR).
 
+**Status (2026-10-02): data collected, validation pending.** The full 2015–2025 JurisDF
+collection finished on 2026-09-12 on the author's machine (78,506 decisions, 132/132
+months; `outputs/diagnostics/04_collection_status.csv`; data not in the repository).
+Next steps, in order:
+
+1. **Author decisions** — D4 (deflator base month; minimum-wage multiples), ratification
+   of D2/D3/D5/D7, and the information request to TJDFT (SIC/CODJU, text ready in
+   `docs/requests/tjdft_terms_request.md`). Checklist with recommendations:
+   [docs/decisoes_pendentes.md](docs/decisoes_pendentes.md) (pt-BR).
+2. **Blind human validation of the extractor (D5)** — `scripts/05_annotation_sample.R`
+   draws the seeded stratified sample (300 decisions, 3 rounds, 60 re-annotated);
+   the author annotates following [docs/COMO_ANOTAR.md](docs/COMO_ANOTAR.md);
+   `scripts/06_annotation_validity.R` reports precision/recall/F1 and intra-rater kappa.
+3. **Phase 1** — `stage: phase1` in `config/config.yml`, then `targets::tar_make()`
+   (re-uses the collected corpus; runs the extractor over all decisions).
+
 ## Data sources (all public, verified 2026-09-05)
 
 | Source | Role | Access |
@@ -43,14 +59,19 @@ renv::restore()
 source("scripts/00_check_environment.R")   # environment audit
 source("scripts/01_test_data_access.R")    # live source checks (network, ~2 min)
 source("scripts/02_pilot_tjdft_month.R")   # pilot: one month of TJDFT decisions -> DuckDB
-source("scripts/03_pilot_extract_values.R")# extractor diagnostics + annotation sample
-testthat::test_dir("tests/testthat")       # 33 tests
+source("scripts/03_pilot_extract_values.R")# extractor diagnostics (pilot)
+source("scripts/04_collect_tjdft_full.R")  # full 2015-2025 collection (idempotent, 1 req/s)
+testthat::test_dir("tests/testthat")       # 131 tests, synthetic fixtures only
 source("scripts/09_export_overleaf.R")     # numbers.tex, tables, figures for Overleaf
+# after D5 is ratified:
+source("scripts/05_annotation_sample.R")   # blind annotation sample + worksheets (git-ignored)
+source("scripts/06_annotation_validity.R") # validity report after each annotation round
 ```
 
 Step-by-step runbook with inputs, outputs and durations: [docs/RUNBOOK.md](docs/RUNBOOK.md).
-Phase 1 (full 2015–2025 collection) runs through `targets::tar_make()` after the
-protocol is approved.
+Phase 1 runs through `targets::tar_make()` after the protocol is approved and the
+extractor is validated; it re-uses the collection made by `scripts/04` (months already
+logged in `collection_log` are skipped).
 
 ## Repository layout
 
@@ -60,7 +81,7 @@ protocol is approved.
 | `R/` | pipeline functions: API clients (TJDFT, STJ, DataJud, BCB), value extractor, harm classifier, DuckDB helpers |
 | `sql/` | DuckDB schema |
 | `scripts/` | numbered, executable steps (see runbook) |
-| `tests/testthat/` | unit tests for the extractor, parsers and classifier |
+| `tests/testthat/` | unit tests for the extractor, parsers, classifier, deflator and annotation tooling |
 | `docs/` | research protocol, estimand table, decision log, data inventory and dictionary, feasibility report, AI-use policy, LaTeX snippets |
 | `article/` | Overleaf skeleton only (`main.tex`, `references.bib`); prose is written by the author |
 | `outputs/` | logs, diagnostics, `overleaf/` exports (generated) |
