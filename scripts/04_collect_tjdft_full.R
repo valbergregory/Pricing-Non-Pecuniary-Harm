@@ -9,15 +9,10 @@ con <- db_connect(cfg); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = T
 db_init(con)
 
 w <- as.Date(cfg$temporal$study_window)
-starts <- seq(as.Date(format(w[1], "%Y-%m-01")), w[2], by = "month")
-ends <- pmin(c(starts[-1] - 1, w[2]), w[2])
-windows <- data.frame(from = format(starts), to = format(ends), stringsAsFactors = FALSE)
+windows <- monthly_windows(cfg$temporal$study_window)
 log(sprintf("study window %s..%s: %d monthly windows", w[1], w[2], nrow(windows)))
 
-done_pages <- function(from, to) {
-  DBI::dbGetQuery(con, "SELECT count(DISTINCT page) n FROM collection_log WHERE source='tjdft' AND request_body LIKE ?",
-                  params = list(sprintf("%%entre %s e %s%%", from, to)))$n
-}
+done_pages <- function(from, to) tjdft_pages_done(con, from, to)
 status_file <- "outputs/diagnostics/04_collection_status.csv"
 status <- if (file.exists(status_file)) utils::read.csv(status_file, stringsAsFactors = FALSE) else
   data.frame(from = character(), to = character(), hits = integer(), pages = integer(),

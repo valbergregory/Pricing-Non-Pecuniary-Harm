@@ -116,3 +116,31 @@ tjdft_collect_window <- function(cfg, con, date_from, date_to, max_pages = Inf, 
   }
   invisible(list(hits = first$hits, collected = total, dir = out_dir))
 }
+
+# Monthly windows over the study period (shared by scripts/04 and _targets.R).
+monthly_windows <- function(study_window) {
+  w <- as.Date(study_window)
+  starts <- seq(as.Date(format(w[1], "%Y-%m-01")), w[2], by = "month")
+  ends <- pmin(c(starts[-1] - 1, w[2]), w[2])
+  data.frame(from = format(pmax(starts, w[1])), to = format(ends), stringsAsFactors = FALSE)
+}
+
+# Pages of a window already saved and logged in `collection_log` (idempotent resume, D6).
+tjdft_pages_done <- function(con, from, to) {
+  DBI::dbGetQuery(con, "SELECT count(DISTINCT page) n FROM collection_log WHERE source='tjdft' AND request_body LIKE ?",
+                  params = list(sprintf("%%entre %s e %s%%", from, to)))$n
+}
+
+# Collect a window only if some of its pages are missing (one count request otherwise).
+tjdft_collect_if_missing <- function(cfg, con, from, to, log = message) {
+  cnt <- tjdft_count(cfg, from, to)
+  n_pages <- ceiling(cnt$hits / cfg$sources$tjdft$page_size)
+  have <- tjdft_pages_done(con, from, to)
+  if (cnt$hits == 0 || have >= n_pages) {
+    log(sprintf("%s..%s: %d hits, %d/%d pages already collected - skip", from, to, cnt$hits, have, n_pages))
+    return(invisible(list(hits = cnt$hits, collected = 0L, skipped = TRUE)))
+  }
+  res <- tjdft_collect_window(cfg, con, from, to, log = log)
+  res$skipped <- FALSE
+  invisible(res)
+}

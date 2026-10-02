@@ -30,6 +30,10 @@ sources:
   bcb_sgs:
     ipca_series: 433
     url: "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados"
+    # Salário mínimo nominal mensal (SGS 1619). Usado só se temporal$report_sm_multiples
+    # for TRUE (D4). Código não testado nesta máquina (BCB inacessível em 2026-10-02):
+    # conferir no primeiro uso (bcb_minimum_wage() valida a resposta).
+    minimum_wage_series: 1619
 
 pilot:
   window: ["2024-03-01", "2024-03-31"]   # 1 mês; ~820 acórdãos (hits medidos em 2026-09-05)
@@ -37,7 +41,22 @@ pilot:
 
 temporal:
   study_window: ["2015-01-01", "2025-12-31"]
-  price_base: "2025-12"   # mês-base do deflacionamento (decidir D4)
+  # D4 (PENDENTE — decisão do autor). Trocar a escolha = editar só estas duas linhas.
+  price_base: "2025-12"        # mês-base do deflacionamento IPCA ("AAAA-MM")
+  report_sm_multiples: true    # também reportar valores em múltiplos do salário-mínimo
+
+# D5 (PROPOSTA — aguarda ratificação do autor): validação humana cega do extrator.
+annotation:
+  n_total: 300                 # acórdãos anotados (rodadas 1..n_rounds)
+  n_rounds: 3
+  n_reannot: 60                # reanotação cega (concordância intra-avaliador)
+  reannot_from_rounds: [1]     # reanotar itens da rodada 1, >= 4 semanas depois dela
+  strata_include: [civel, recursal]   # estratos D8; "outro" (criminais etc.) fica fora
+  f1_threshold: 0.90           # limiar do valor final (research_protocol.md §5)
+  value_tolerance_brl: 0.01    # acerto = diferença <= 1 centavo
+  bootstrap_reps: 2000
+  annotator: "VG"
+  dir: data/interim/annotation # git-ignorado: fichas com inteiro teor ficam fora do Git
 
 paths:
   raw: data/raw
