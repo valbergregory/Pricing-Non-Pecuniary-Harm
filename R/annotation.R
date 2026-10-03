@@ -1,4 +1,4 @@
-# Human validation of the extractor (decision D5, status: proposed) ----------------------
+# Human validation of the extractor (decision D5, ratified 2026-10-03) ----------------------
 # Pure functions used by scripts/05_annotation_sample.R (seeded stratified sample, blind
 # worksheets) and scripts/06_annotation_validity.R (precision/recall/F1 per field and
 # intra-rater kappa). Design parameters live in config/config.yml -> `annotation`.

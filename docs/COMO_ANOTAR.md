@@ -1,9 +1,8 @@
 # Como anotar — validação humana cega do extrator (D5)
 
-> **Status:** D5 está **proposta**. Este guia e os scripts 05/06 ficam prontos para uso,
-> mas a amostra só deve ser sorteada depois que o autor ratificar D5 em
-> `docs/decisions_log.md`. As regras marcadas **[regra proposta]** são sugestões de
-> operacionalização; o autor confirma ou altera antes da rodada 1 (e registra aqui).
+> **Status (2026-10-03):** D5 e as regras marcadas **[regra proposta]** foram **ratificadas**
+> pelo autor (`docs/decisions_log.md`, D5 e D5a). Amostra sorteada em 03/10/2026. A anotação é
+> **integralmente manual**, feita pelo pesquisador nas planilhas em branco geradas pelo script 05.
 
 ## 1. O que é e por que é cego
 
