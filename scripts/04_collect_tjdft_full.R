@@ -5,7 +5,7 @@
 for (f in list.files("R", full.names = TRUE)) source(f)
 cfg <- load_config(); ensure_dirs(cfg)
 log <- make_logger("outputs/logs/04_collect_tjdft_full.log")
-con <- db_connect(cfg); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+con <- db_connect(cfg)   # closed at the end: a top-level on.exit() fires at once in RStudio Background Jobs
 db_init(con)
 
 w <- as.Date(cfg$temporal$study_window)
@@ -39,3 +39,4 @@ for (i in seq_len(nrow(windows))) {
 tot <- DBI::dbGetQuery(con, "SELECT count(*) n, count(inteiro_teor) nft, min(data_julgamento) d0, max(data_julgamento) d1 FROM acordaos")
 log(sprintf("acordaos in DB: %d (full text %d), %s..%s", tot$n, tot$nft, tot$d0, tot$d1))
 log("done")
+DBI::dbDisconnect(con, shutdown = TRUE)

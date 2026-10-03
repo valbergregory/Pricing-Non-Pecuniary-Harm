@@ -3,7 +3,7 @@
 for (f in list.files("R", full.names = TRUE)) source(f)
 cfg <- load_config(); ensure_dirs(cfg)
 log <- make_logger("outputs/logs/02_pilot_tjdft_month.log")
-con <- db_connect(cfg); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+con <- db_connect(cfg)   # closed at the end: a top-level on.exit() fires at once in RStudio Background Jobs
 db_init(con)
 
 w <- cfg$pilot$window
@@ -21,3 +21,4 @@ ip <- bcb_ipca(cfg, from = "01/01/2010")
 db_upsert(con, "ipca", ip)
 log(sprintf("ipca rows: %d", nrow(ip)))
 log("done")
+DBI::dbDisconnect(con, shutdown = TRUE)

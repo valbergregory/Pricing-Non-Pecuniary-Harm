@@ -25,7 +25,7 @@ if (!is.null(chk)) {
 
 # --- Pilot diagnostics (from 02/03) --------------------------------------------------------
 if (file.exists(cfg$paths$db)) {
-  con <- db_connect(cfg, read_only = TRUE); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+  con <- db_connect(cfg, read_only = TRUE)
   n <- DBI::dbGetQuery(con, "SELECT count(*) n, count(inteiro_teor) nft, min(data_julgamento) d0, max(data_julgamento) d1 FROM acordaos")
   lines <- c(lines, macro("pilotDecisions", fmt_int(n$n)), macro("pilotWithFullText", fmt_int(n$nft)),
              macro("pilotWindowStart", as.character(n$d0)), macro("pilotWindowEnd", as.character(n$d1)))
@@ -41,6 +41,7 @@ if (file.exists(cfg$paths$db)) {
            sprintf("%s & %s & %s \\\\", tex_escape(bb$base), tex_escape(bb$subbase), fmt_int(bb$n)),
            "\\bottomrule\\end{tabular}\\end{table}")
   writeLines(tab, file.path(out, "tables", "tab_pilot_base.tex"))
+  DBI::dbDisconnect(con, shutdown = TRUE)
 }
 cov_f <- "outputs/diagnostics/03_extraction_coverage.csv"
 if (file.exists(cov_f)) {

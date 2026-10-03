@@ -26,7 +26,7 @@ if (length(list.files(ws_dir, pattern = "\\.csv$")) > 0 && Sys.getenv("PNPH_OVER
 for (d in c(adir, ws_dir, fi_dir)) dir.create(d, recursive = TRUE, showWarnings = FALSE)
 stopifnot(grepl("^data/", adir))   # must stay under the git-ignored data/ tree
 
-con <- db_connect(cfg, read_only = TRUE); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+con <- db_connect(cfg, read_only = TRUE)   # closed at the end: a top-level on.exit() fires at once in RStudio Background Jobs
 meta <- DBI::dbGetQuery(con, "SELECT uuid, base, subbase, orgao_julgador, turma_recursal, data_julgamento
                                FROM acordaos WHERE base = 'acordaos'")
 log(sprintf("acordaos (base = acordaos): %d", nrow(meta)))
@@ -86,3 +86,4 @@ utils::write.csv(cells, "outputs/diagnostics/05_annotation_design.csv", row.name
 log(sprintf("design: %d cells, n = %d (+%d re-annotation), seed %s, extractor %s",
             nrow(cells), sum(!design$is_reannot), sum(design$is_reannot), cfg$project$seed, ver))
 log("done — see docs/COMO_ANOTAR.md")
+DBI::dbDisconnect(con, shutdown = TRUE)
