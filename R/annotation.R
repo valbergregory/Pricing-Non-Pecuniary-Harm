@@ -1,4 +1,4 @@
-# Human validation of the extractor (decision D5, status: proposed) ----------------------
+# Human validation of the extractor (decision D5, ratified 2026-10-03; AI pre-annotation D5b) ----------------------
 # Pure functions used by scripts/05_annotation_sample.R (seeded stratified sample, blind
 # worksheets) and scripts/06_annotation_validity.R (precision/recall/F1 per field and
 # intra-rater kappa). Design parameters live in config/config.yml -> `annotation`.
@@ -236,4 +236,24 @@ bootstrap_f1 <- function(pred, gold, tol = 0.01, reps = 2000L, level = 0.95) {
   f <- replicate(reps, { i <- sample.int(n, n, TRUE); value_prf(pred[i], gold[i], tol)[["f1"]] })
   q <- stats::quantile(f, c((1 - level) / 2, 1 - (1 - level) / 2), na.rm = TRUE, names = FALSE)
   c(lo = q[1], hi = q[2])
+}
+
+# D5b ("AI suggests, the researcher decides"): share of annotated items whose final label
+# differs from the AI pre-annotation, field by field. `ia_ws` = untouched AI worksheets
+# (annotation$dir/ia/), `final_ws` = the researcher's worksheets; only items annotated in
+# both are compared (re-annotation items have new ids and no AI suggestion).
+ia_change_rate <- function(ia_ws, final_ws, tol = 0.01) {
+  m <- merge(normalise_annotations(ia_ws), normalise_annotations(final_ws), by = "item_id",
+             suffixes = c("_ia", "_final"))
+  same_cat <- function(x, y) (is.na(x) & is.na(y)) | (!is.na(x) & !is.na(y) & x == y)
+  same_num <- function(x, y) (is.na(x) & is.na(y)) | (!is.na(x) & !is.na(y) & abs(x - y) <= tol)
+  fields <- c(decide_dano_moral = "cat", award_brl = "num", papel_valor = "cat", multiplos_valores = "cat",
+              first_instance_brl = "num", harm_type = "cat", outcome = "cat")
+  out <- do.call(rbind, lapply(names(fields), function(f) {
+    a <- m[[paste0(f, "_ia")]]; b <- m[[paste0(f, "_final")]]
+    same <- if (fields[[f]] == "num") same_num(a, b) else same_cat(a, b)
+    data.frame(field = f, n = nrow(m), changed = sum(!same), stringsAsFactors = FALSE)
+  }))
+  out$rate <- ifelse(out$n > 0, out$changed / out$n, NA_real_)
+  out
 }

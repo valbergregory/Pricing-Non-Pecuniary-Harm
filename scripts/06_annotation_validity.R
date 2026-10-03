@@ -9,9 +9,9 @@
 # DuckDB file). Both are reported when the DB is available; the threshold check
 # (annotation$f1_threshold, research_protocol.md §5) is printed for both.
 #
-# Reads : annotation$dir/{chave_NAO_ABRIR.csv, planilhas/*.csv}, pnph.duckdb (optional)
+# Reads : annotation$dir/{chave_NAO_ABRIR.csv, planilhas/*.csv, ia/*.csv (optional, D5b)}, pnph.duckdb (optional)
 # Writes (versioned, aggregate only): outputs/diagnostics/06_validity_metrics.csv,
-#   06_validity_by_class.csv, 06_intrarater_kappa.csv, 06_validity_report.md, log
+#   06_validity_by_class.csv, 06_intrarater_kappa.csv, 06_ia_change_rate.csv (D5b), 06_validity_report.md, log
 # Writes (git-ignored): annotation$dir/divergencias.csv (item-level errors, for debugging)
 for (f in list.files("R", full.names = TRUE)) source(f)
 cfg <- load_config(); ensure_dirs(cfg)
@@ -112,6 +112,16 @@ if (nrow(re)) {
   log(sprintf("re-annotated pairs: %d", nrow(re)))
 }
 
+# D5b: AI pre-annotation -> researcher change rate (only if annotation$dir/ia/ exists) ---------
+ia_tab <- NULL
+ia_files <- list.files(file.path(adir, "ia"), pattern = "\\.csv$", full.names = TRUE)
+if (length(ia_files)) {
+  ia_ws <- do.call(rbind, lapply(ia_files, function(p) read_worksheet(p)[, WORKSHEET_COLS]))
+  ia_tab <- ia_change_rate(ia_ws, ws, tol)
+  utils::write.csv(ia_tab, "outputs/diagnostics/06_ia_change_rate.csv", row.names = FALSE)
+  log(sprintf("AI pre-annotation compared on %d items", ia_tab$n[1]))
+}
+
 # Report (generated; numbers only, no interpretation) -------------------------------------
 fmt <- function(x) ifelse(is.na(x), "—", sprintf("%.3f", x))
 tot <- metrics[metrics$group == "todos" & metrics$field == "valor_final", ]
@@ -136,6 +146,10 @@ rep <- c("# Relatório de validade do extrator (D5) — GERADO por scripts/06_an
          if (is.null(kap)) "Reanotação ainda não preenchida." else
            c("| campo | n | concordância | kappa de Cohen |", "|---|---|---|---|",
              sprintf("| %s | %d | %s | %s |", kap$field, as.integer(kap$n), fmt(kap$agreement), fmt(kap$kappa))),
+         "", "## Pré-anotação por IA — taxa de alteração pelo pesquisador (D5b)", "",
+         if (is.null(ia_tab)) "Sem planilhas da IA em `annotation$dir/ia/`." else
+           c("| campo | n | alterados | taxa |", "|---|---|---|---|",
+             sprintf("| %s | %d | %d | %s |", ia_tab$field, as.integer(ia_tab$n), as.integer(ia_tab$changed), fmt(ia_tab$rate))),
          "", "Definições: VP = valor do extrator igual ao humano (± tolerância); valor errado conta como FP e FN;",
          "papel_valor comparado só onde ambos têm valor (FIXADO e MANTIDO = `fixed`); tipo_lesao = classificador por regras;",
          "`todos_ponderado_desenho` pondera pelo inverso da fração amostral de cada célula (estrato × ano × achou-valor).")
