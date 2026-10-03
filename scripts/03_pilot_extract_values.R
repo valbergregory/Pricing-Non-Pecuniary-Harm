@@ -5,7 +5,7 @@
 for (f in list.files("R", full.names = TRUE)) source(f)
 cfg <- load_config(); ensure_dirs(cfg)
 log <- make_logger("outputs/logs/03_pilot_extract_values.log")
-con <- db_connect(cfg); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+con <- db_connect(cfg)   # closed at the end: a top-level on.exit() fires at once in RStudio Background Jobs
 
 ac <- DBI::dbGetQuery(con, "SELECT uuid, base, subbase, classe_cnj, orgao_julgador, relator,
                              data_julgamento, decisao, ementa, inteiro_teor FROM acordaos")
@@ -70,3 +70,4 @@ utils::write.csv(ann, "outputs/diagnostics/03_annotation_sample_round1.csv", row
 utils::write.csv(diag, "outputs/diagnostics/03_per_decision_diagnostics.csv", row.names = FALSE)
 log(sprintf("annotation sample written: %d decisions", nrow(ann)))
 log("done")
+DBI::dbDisconnect(con, shutdown = TRUE)

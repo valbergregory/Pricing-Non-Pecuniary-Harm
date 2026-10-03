@@ -44,13 +44,14 @@ if (nrow(main) == 0) stop("no annotated items yet")
 preds <- list(frozen = data.frame(uuid = main$uuid, award = main$award_frozen, role = main$role_frozen,
                                   harm = main$harm_type_frozen, stringsAsFactors = FALSE))
 if (file.exists(cfg$paths$db) && requireNamespace("duckdb", quietly = TRUE)) {
-  con <- db_connect(cfg, read_only = TRUE); on.exit(DBI::dbDisconnect(con, shutdown = TRUE), add = TRUE)
+  con <- db_connect(cfg, read_only = TRUE)
   cur <- extract_decisions_db(con, uuids = main$uuid)
   em <- DBI::dbGetQuery(con, sprintf("SELECT uuid, ementa FROM acordaos WHERE uuid IN (%s)",
                                      paste(rep("?", nrow(main)), collapse = ", ")), params = as.list(main$uuid))
   cur$harm <- classify_harm_vec(em$ementa[match(cur$uuid, em$uuid)])
   preds$current <- data.frame(uuid = cur$uuid, award = cur$award_any, role = cur$award_role, harm = cur$harm)
   log(sprintf("current extractor %s re-run on %d decisions", extractor_version(), nrow(cur)))
+  DBI::dbDisconnect(con, shutdown = TRUE)
 } else log("DuckDB not available: reporting frozen predictions only")
 
 metrics <- list(); by_class <- list(); diverg <- list()
