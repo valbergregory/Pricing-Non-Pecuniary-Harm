@@ -1,7 +1,9 @@
 # Como anotar — validação humana cega do extrator (D5)
 
-> **Status (2026-10-03):** D5 e as regras marcadas **[regra proposta]** foram **ratificadas**
-> pelo autor (`docs/decisions_log.md`, D5 e D5a). Pré-anotação por IA aprovada (D5b, §7 abaixo).
+> **Status:** D5 está **proposta**. Este guia e os scripts 05/06 ficam prontos para uso,
+> mas a amostra só deve ser sorteada depois que o autor ratificar D5 em
+> `docs/decisions_log.md`. As regras marcadas **[regra proposta]** são sugestões de
+> operacionalização; o autor confirma ou altera antes da rodada 1 (e registra aqui).
 
 ## 1. O que é e por que é cego
 
@@ -134,20 +136,3 @@ isso depois de começar a anotar.
   conta como FP e FN; precisão, recall, F1 com IC 95 % por bootstrap; versão ponderada
   pelo desenho como complemento. Papel do valor e tipo de lesão — F1 por classe e
   macro-F1. Reanotação — concordância e kappa de Cohen por campo.
-
-## 7. Pré-anotação por IA — "IA sugere, pesquisador decide" (D5b, 2026-10-03)
-
-1. Depois do sorteio (05), o autor envia à IA **só** `planilhas/rodada_1..3.csv` e as fichas desses
-   300 itens. **Não** envia `chave_NAO_ABRIR.csv` (a IA não vê o extrator) nem a planilha de reanotação.
-2. A IA devolve uma planilha por rodada, no mesmo formato, com as colunas preenchidas e a
-   `observacoes` começando por `IA[1|2|3]:` (confiança) e o motivo; `minutos` fica vazio.
-3. O autor guarda as planilhas da IA **intocadas** em `data/interim/annotation/ia/rodada_<k>_IA.csv`
-   (fora de `planilhas/`, que o 06 lê como anotação) e copia cada uma para `planilhas/rodada_<k>.csv`,
-   onde revisa **todas** as linhas; discordância: corrigir e acrescentar em `observacoes` `| VG: motivo`.
-   Preencher `minutos` com o tempo de revisão.
-4. A **reanotação (60) é feita sem sugestões**, ≥ 4 semanas depois, como antes: ela mede a ancoragem.
-5. O 06 reporta a **taxa de alteração IA → final** por campo (`06_ia_change_rate.csv` e seção do
-   relatório). Procedimento e taxa vão para a seção de métodos (texto do autor).
-6. **Cuidado com o extrator:** se as regras do extrator forem corrigidas a partir de `divergencias.csv`,
-   estes 300 itens deixam de validar a versão corrigida — sortear uma amostra nova (outra semente) para
-   ela. Protocolo e instruções dadas à IA: `docs/ia_preanotacao_protocolo.md`.

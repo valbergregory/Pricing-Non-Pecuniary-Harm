@@ -124,22 +124,3 @@ test_that("format_ficha hides extractor output and rapporteur", {
   expect_true(any(grepl("P-AAAAAA", f))); expect_true(any(grepl("(vazio)", f, fixed = TRUE)))
   expect_false(any(grepl("relator|award|extrator", f, ignore.case = TRUE)))
 })
-
-test_that("ia_change_rate counts researcher changes to the AI pre-annotation (D5b)", {
-  mk <- function(ids, decide, valor, papel, tipo) {
-    ws <- as.data.frame(setNames(replicate(length(WORKSHEET_COLS), rep("", length(ids)), simplify = FALSE),
-                                 WORKSHEET_COLS), stringsAsFactors = FALSE)
-    ws$item_id <- ids; ws$rodada <- "1"; ws$decide_dano_moral <- decide; ws$valor_final <- valor
-    ws$papel_valor <- papel; ws$tipo_lesao <- tipo; ws$resultado <- "DESPROVIDO"; ws
-  }
-  ia <- mk(c("P-1", "P-2", "P-3"), c("S", "S", "N"), c("10.000,00", "5000", ""), c("MANTIDO", "MAJORADO", "SEM_VALOR"),
-           c("medical", "air_travel", "other"))
-  fin <- mk(c("P-1", "P-2", "P-3"), c("S", "S", ""), c("10000", "6.000,00", ""), c("MANTIDO", "MAJORADO", ""),
-            c("medical", "consumer_service", ""))
-  r <- ia_change_rate(ia, fin)
-  expect_equal(r$n[1], 2)                                            # P-3 not yet annotated
-  expect_equal(r$changed[r$field == "award_brl"], 1)                 # 10.000,00 = 10000; 5000 -> 6000
-  expect_equal(r$changed[r$field == "harm_type"], 1)
-  expect_equal(r$changed[r$field == "papel_valor"], 0)
-  expect_equal(r$rate[r$field == "award_brl"], 0.5)
-})
