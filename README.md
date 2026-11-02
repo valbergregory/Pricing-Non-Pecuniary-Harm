@@ -1,97 +1,107 @@
 # Pricing Non-Pecuniary Harm
 
-Research compendium (R-only) for the working paper
+Research compendium for the working paper *Pricing Non-Pecuniary Harm: A
+Jurimetric Analysis of Moral Damages Awards in a Brazilian Appellate Court
+(Federal District, 2015–2025)*.
 
-> **Pricing Non-Pecuniary Harm: A Jurimetric Analysis of Moral Damages Awards in a
-> Brazilian Appellate Court (Federal District, 2015–2025)** — Valber Gregory
-
-Scope decisions (2026-09-07): single jurisdiction (TJDFT) with a planned replication in
-TJRS; civil panels and small-claims appellate panels analysed as explicit strata; the
-STJ's review of awards under *Súmula 7* is the object of a separate paper
+Brazilian law leaves the monetary valuation of moral damages (*dano moral*) to
+judicial discretion. This repository collects public appellate decisions of
+the Federal District court (TJDFT), extracts the amounts awarded from their
+full text, and treats them as data. Civil panels (Turmas Cíveis) and
+small-claims appellate panels (Turmas Recursais) are analysed as explicit
+strata. The review of awards by the Superior Court of Justice (STJ) under
+*Súmula 7* is the object of a separate repository
 ([STJ-Moral-Damages-Jurimetrics](https://github.com/valbergregory/STJ-Moral-Damages-Jurimetrics)).
 
-Brazilian law leaves the monetary valuation of moral damages (*dano moral*) to judicial
-discretion. This repository builds a reproducible pipeline that extracts the amounts
-awarded in the full text of public appellate decisions and estimates (i) the distribution
-of awards by type of harm, (ii) the share of variance attributable to judges and panels,
-(iii) the compression effect of appellate review, (iv) the response of awards to binding
-STJ precedents, and (v) the role of anchors and inflation.
+**Research questions** (`docs/research_protocol.md`, estimands in
+`docs/estimand_table.md`):
 
-**Status (2026-09-07): feasibility stage.** Sources audited with live access tests,
-one-month pilot collection (TJDFT, March 2024), rule-based extractor with tests,
-pre-registration protocol drafted. **No scientific result is reported yet**; the
-pilot numbers are diagnostics of extraction feasibility.
-See [docs/feasibility_report.md](docs/feasibility_report.md) (pt-BR).
+1. Distribution (level and dispersion) of awards by type of harm.
+2. Share of variance attributable to the rapporteur and the panel, holding the
+   type of harm fixed.
+3. Whether appellate review compresses dispersion relative to first-instance
+   values.
+4. Whether qualified STJ precedents shift awards in the affected types of harm.
+5. Anchors: round numbers, minimum-wage multiples and nominal rigidity under
+   inflation.
 
-**Status (2026-10-02): data collected, validation pending.** The full 2015–2025 JurisDF
-collection finished on 2026-09-12 on the author's machine (78,506 decisions, 132/132
-months; `outputs/diagnostics/04_collection_status.csv`; data not in the repository).
-Next steps, in order:
+## Data sources
 
-1. **Author decisions** — D4 (deflator base month; minimum-wage multiples), ratification
-   of D2/D3/D5/D7, and the information request to TJDFT (SIC/CODJU, text ready in
-   `docs/requests/tjdft_terms_request.md`). Checklist with recommendations:
-   [docs/decisoes_pendentes.md](docs/decisoes_pendentes.md) (pt-BR).
-2. **Blind human validation of the extractor (D5)** — `scripts/05_annotation_sample.R`
-   draws the seeded stratified sample (300 decisions, 3 rounds, 60 re-annotated);
-   the author annotates following [docs/COMO_ANOTAR.md](docs/COMO_ANOTAR.md);
-   `scripts/06_annotation_validity.R` reports precision/recall/F1 and intra-rater kappa.
-3. **Phase 1** — `stage: phase1` in `config/config.yml`, then `targets::tar_make()`
-   (re-uses the collected corpus; runs the extractor over all decisions).
+Machine-readable inventory, with access details and status per source, in
+`config/data_sources.yml` (narrative version in `docs/data_inventory.md`).
 
-## Data sources (all public, verified 2026-09-05)
+| Source | Institution | Role | Period |
+|---|---|---|---|
+| [JurisDF](https://jurisdf.tjdft.jus.br/) — jurisprudence API | TJDFT | Primary: ementa, dispositivo, panel, rapporteur, dates and full text of appellate decisions | 2015–2025 |
+| [STJ open data](https://dadosabertos.web.stj.jus.br/) — full texts, panel summaries (3rd and 4th Panels), qualified precedents (`temas.csv`) | STJ | Secondary: decisions reviewed despite *Súmula 7*; precedents as event calendar | 2021 onwards (full texts) |
+| [DataJud public API](https://datajud-wiki.cnj.jus.br/api-publica/) | CNJ | Context: case volumes by court (no award values) | 2015–2026 |
+| SGS series 433 (IPCA) and 1619 (minimum wage) | Banco Central do Brasil | Deflator; minimum-wage multiples | monthly |
 
-| Source | Role | Access |
-|---|---|---|
-| [JurisDF — TJDFT jurisprudence API](https://jurisdf.tjdft.jus.br/) | **Primary**: ementa, dispositivo, panel, rapporteur, dates and full text of appellate decisions, 2015–2025 | `POST /api/v1/pesquisa`, no key |
-| [STJ open data](https://dadosabertos.web.stj.jus.br/) | Secondary: decisions reviewed despite *Súmula 7*; qualified precedents (`temas.csv`) as event calendar | CKAN, CC-BY |
-| [DataJud public API (CNJ)](https://datajud-wiki.cnj.jus.br/api-publica/) | Context: case volumes by court and instance (no award values) | public key |
-| [BCB/SGS series 433](https://api.bcb.gov.br/) | IPCA deflator | JSON |
-
-Raw judicial texts are **not redistributed**; the scripts re-download them and record
-URL, date, size and SHA-256 in `data/metadata/download_manifest.csv` and in the
-`collection_log` table.
-
-## Reproduce (R 4.4.3; packages pinned in `renv.lock`)
-
-```r
-renv::restore()
-source("scripts/00_check_environment.R")   # environment audit
-source("scripts/01_test_data_access.R")    # live source checks (network, ~2 min)
-source("scripts/02_pilot_tjdft_month.R")   # pilot: one month of TJDFT decisions -> DuckDB
-source("scripts/03_pilot_extract_values.R")# extractor diagnostics (pilot)
-source("scripts/04_collect_tjdft_full.R")  # full 2015-2025 collection (idempotent, 1 req/s)
-testthat::test_dir("tests/testthat")       # 131 tests, synthetic fixtures only
-# after D5 is ratified:
-source("scripts/05_annotation_sample.R")   # blind annotation sample + worksheets (git-ignored)
-source("scripts/06_annotation_validity.R") # validity report after each annotation round
-```
-
-Step-by-step runbook with inputs, outputs and durations: [docs/RUNBOOK.md](docs/RUNBOOK.md).
-Phase 1 runs through `targets::tar_make()` after the protocol is approved and the
-extractor is validated; it re-uses the collection made by `scripts/04` (months already
-logged in `collection_log` are skipped).
+Judicial texts are not redistributed. The scripts re-download them and record
+URL, request body, page count and SHA-256 in the `collection_log` table and
+in `data/metadata/download_manifest.csv`.
 
 ## Repository layout
 
 | Path | Content |
 |---|---|
-| `config/` | central config, source inventory, harm-type dictionary |
-| `R/` | pipeline functions: API clients (TJDFT, STJ, DataJud, BCB), value extractor, harm classifier, DuckDB helpers |
-| `sql/` | DuckDB schema |
-| `scripts/` | numbered, executable steps (see runbook) |
-| `tests/testthat/` | unit tests for the extractor, parsers, classifier, deflator and annotation tooling |
-| `docs/` | research protocol, estimand table, decision log, data inventory and dictionary, feasibility report |
-| `data/` | raw and processed data (git-ignored) |
+| `config/` | `config.yml` (sources, study window, deflator base, annotation design), `data_sources.yml`, `harm_types.yml` (rule-based harm-type dictionary) |
+| `R/` | API clients (JurisDF, STJ CKAN, DataJud, BCB/SGS), value extractor, harm classifier, annotation tooling, DuckDB helpers |
+| `sql/schema.sql` | DuckDB DDL (see below) |
+| `scripts/` | Numbered steps: environment check, source access tests, one-month pilot, extractor diagnostics, full collection, annotation sample, annotation validity report, export |
+| `_targets.R` | `targets` pipeline for the full corpus (collection by monthly windows, deflator series, extraction) |
+| `tests/testthat/` | Unit tests for the extractor, parsers, classifier and annotation tooling (synthetic fixtures only) |
+| `docs/` | Research protocol, estimand table, decision log, data inventory, data dictionary, reproducibility guide, runbook, annotation guide |
+| `data/` | Raw pages, DuckDB file and annotation worksheets (git-ignored); `data/metadata/` with the download manifest |
+| `outputs/` | Logs and diagnostics CSVs; figures, tables and models are generated locally |
 
-## Ethics
+### Database schema (`data/processed/pnph.duckdb`)
 
-Only public documents obtained from official portals; no names of parties, lawyers or
-individual judges are stored in dedicated fields or published; judge-level analysis is
-reported at court/panel level. Full texts stay outside Git.
+| Table | Content |
+|---|---|
+| `acordaos` | one row per decision: identifiers, base, panel, rapporteur, dates, dispositivo, ementa, full text and length, lineage |
+| `value_mentions` | one row per "R$" mention in ementa or full text: amount, role (fixed, increased, reduced, first instance, claimed, excluded categories, unknown), confidence, moral-damages flag, context |
+| `annotations` | human annotation rounds: final award, role, first-instance value, harm type, outcome |
+| `ipca` | monthly IPCA and cumulative index |
+| `collection_log` | every API page: timestamp, URL, request body, record count, raw file, SHA-256 |
 
-## Licence
+Field-level dictionary in `docs/data_dictionary.md`.
 
-Code: MIT ([LICENSE](LICENSE)). Text, documentation and data: see [LICENSING.md](LICENSING.md).
+## Reproduce
 
-Code: MIT. Text and figures: CC BY 4.0. See `LICENSE` and `CITATION.cff`.
+R 4.4.3; packages pinned in `renv.lock`. No Python, Docker or services other than the public APIs listed above.
+
+```r
+renv::restore()
+source("scripts/00_check_environment.R")
+source("scripts/01_test_data_access.R")    # live source checks (network)
+source("scripts/02_pilot_tjdft_month.R")   # one month of TJDFT decisions -> DuckDB
+source("scripts/03_pilot_extract_values.R")
+source("scripts/04_collect_tjdft_full.R")  # 2015-2025 collection (idempotent, 1 req/s)
+testthat::test_dir("tests/testthat")
+source("scripts/05_annotation_sample.R")   # blind annotation sample (worksheets git-ignored)
+source("scripts/06_annotation_validity.R") # precision/recall/F1 and intra-rater kappa
+```
+
+Full-corpus extraction: set `stage: phase1` in `config/config.yml`, then
+`targets::tar_make()`. Inputs, outputs and durations of each step are in
+`docs/RUNBOOK.md`; environment notes in `docs/reproducibility_guide.md`.
+
+Optional environment variable (`.Renviron`, git-ignored): `DATAJUD_APIKEY`.
+The DataJud key is public; when absent, the scripts fetch it from the CNJ page.
+
+## Ethics and personal data
+
+Only public documents obtained from official portals. Names of parties are
+not extracted or stored in dedicated fields; full texts stay outside Git;
+results are published in aggregate, with judge-level analysis reported at
+court/panel level (decision D7, `docs/decisions_log.md`). Collection runs at
+one request per second with a User-Agent identifying the repository
+(decision D6).
+
+## Licence and citation
+
+Code: MIT ([LICENSE](LICENSE)). Text, documentation and figures: CC BY 4.0
+([LICENSING.md](LICENSING.md)). Judicial documents are not redistributed.
+
+Citation: [CITATION.cff](CITATION.cff).
